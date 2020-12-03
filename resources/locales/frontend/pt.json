@@ -1,0 +1,3638 @@
+{
+  "people": {
+    "firstname": "Primeiro nome",
+    "lastname": "Último nome",
+    "lastname_and_name": "Sobrenome e nome",
+    "identification": "ID",
+    "treatment": {
+      "text": "Tratamento",
+      "mr": "Sr.",
+      "mrs": "Sra."
+    },
+    "email": "E-mail",
+    "gender": {
+      "text": "Gênero",
+      "female": "Feminino",
+      "male": "Masculino"
+    },
+    "roles": {
+      "text": "Função",
+      "owner": "Administrador principal",
+      "admin": "Administrador",
+      "user": "Usuário"
+    },
+    "country": "País",
+    "phone": "Telefone",
+    "timezone": "Fuso horário",
+    "language": "Idioma",
+    "password": "Senha",
+    "document": "Documento",
+    "document_type": "Tipo de documento",
+    "names": "Nomes e Sobrenomes"
+  },
+  "webhooks": {
+    "empty": "Não há webhooks configurados",
+    "send": "Enviar",
+    "statuses": {
+      "active": "Habilitar",
+      "inactive": "Desabilitar"
+    },
+    "rename": "Renomear",
+    "event": "Campos de Evento",
+    "events_title": "Eventos",
+    "fields": "Campos",
+    "events": {
+      "unique_donation": "Doações únicas"
+    },
+    "title": "Webhooks",
+    "title_single": "Webhook",
+    "new": "Adicionar novo",
+    "edit": "Editar",
+    "edit_events": "Editar eventos",
+    "delete": "Excluir",
+    "table": {
+      "url": "URL",
+      "events": "Eventos",
+      "status": "Status"
+    },
+    "delete_dialog": {
+      "title": "Remover Webhook",
+      "description": "Tem certeza de que deseja excluir este webhook?",
+      "accept": "Aceitar",
+      "cancel": "Cancelar"
+    },
+    "delete_dialog_event": {
+      "title": "Remover Evento",
+      "description": "Tem certeza de que deseja excluir este evento?"
+    },
+    "create": {
+      "edit": "Editar Webhook",
+      "title": "Novo Webhook",
+      "cancel": "Cancelar",
+      "create": "Criar",
+      "update": "salvar",
+      "field": {
+        "url": {
+          "text": "Url",
+          "info": "Url para onde os dados do webhook serão enviados"
+        },
+        "active": "Ativa"
+      }
+    },
+    "messages": {
+      "errors": {
+        "get_all": "Erro ao obter webhooks",
+        "show":"Erro ao obter a webhook",
+        "remove": "Erro ao excluir o webhook",
+        "store": "Erro ao salvar o webhook",
+        "update": "Erro ao atualizar o webhook",
+        "update_status": "Falha ao alterar o status",
+        "store_active": "Erro ao salvar o evento do webhook",
+        "update_active": "Erro ao atualizar o evento webhook",
+        "remove_active": "Falha ao remover evento do webhook"
+      },
+      "success": {
+        "remove": "Webhook removido com sucesso",
+        "store": "Webhook criado com sucesso",
+        "update": "Webhook atualizado con éxito",
+        "update_status": "Status atualizado",
+        "store_active": "Evento de webhook criado com sucesso",
+        "update_active": "Evento de webhook atualizado com sucesso",
+        "remove_active": "Evento webhook removido com sucesso"
+      }
+    }
+  },
+  "actions": {
+    "create": "Criar",
+    "save": "Salvar",
+    "edit": "Editar",
+    "detail": "Detalhes",
+    "update": "Atualizar",
+    "remove": "Excluir",
+    "delete": "Excluir",
+    "search": "Pesquisar",
+    "load": "carregar",
+    "send": "Enviar",
+    "resend": "Reenviar",
+    "send_certification": "Enviar comprovante",
+    "upload": "Subir",
+    "download": "Baixar",
+    "downloadAll": "Baixar Todo",
+    "integrate": "Integrar",
+    "setup": "Configurar",
+    "accept": "Aceitar",
+    "cancel": "Cancelar",
+    "import": "Importar",
+    "export": "Exportar",
+    "approve": "Aprovar",
+    "reject": "Rejeitar",
+    "finalize": "Finalizar",
+    "activate": "Ativar",
+    "defuse": "desativar",
+    "apply": "Aplique",
+    "calculate": "Calcular",
+    "emit": "Emitir",
+    "annular": "Cancelar",
+    "preview": "Pré-visualização",
+    "add": "Adicionar",
+    "open": "Abrir"
+  },
+  "dates": {
+    "january": "Janeiro",
+    "february": "Fevereiro",
+    "march": "De março",
+    "april": "Abril",
+    "may": "Maio",
+    "june": "Junho",
+    "july": "Julho",
+    "august": "Agosto",
+    "september": "Setembro",
+    "october": "Outubro",
+    "november": "Novembro",
+    "december": "Dezembro",
+    "day": "Dia",
+    "week": "Semana",
+    "month": "Mês",
+    "year": "Ano",
+    "all": "Todos",
+    "date": "Data",
+    "abbreviated": {
+      "day": "DTD",
+      "month": "MTD",
+      "year": "YTD",
+      "1y": "1Y",
+      "1M": "1M",
+      "1D": "1D"
+    },
+    "custom": "Personalizado",
+    "from": "Desde:",
+    "until": "Até:",
+    "invalid_range": "O intervalo de datas selecionado não é válido",
+    "week1": "Semana 1",
+    "week2": "Semana 2",
+    "week3": "Semana 3",
+    "week4": "Semana 4",
+    "0to1": "12pm a 1am",
+    "1to2": "1am a 2am",
+    "2to3": "2am a 3am",
+    "3to4": "3am a 4am",
+    "4to5": "4am a 5am",
+    "5to6": "5am a 6am",
+    "6to7": "6am a 7am",
+    "7to8": "7am a 8am",
+    "8to9": "8am a 9am",
+    "9to10": "9am a 10am",
+    "10to11": "10am a 11am",
+    "11to12": "11am a 12m",
+    "12to13": "12m a 1pm",
+    "13to14": "1pm a 2pm",
+    "14to15": "2pm a 3pm",
+    "15to16": "3pm a 4pam",
+    "16to17": "4pm a 5pm",
+    "17to18": "5pm a 6pm",
+    "18to19": "6pm a 7pm",
+    "19to20": "7pm a 8pm",
+    "20to21": "8pm a 9pm",
+    "21to22": "9pm a 10pm",
+    "22to23": "10pm a 11pm",
+    "23to24": "11pm a 12pm",
+    "1w": "Uma semana",
+    "4w": "de 4 semanas",
+    "1y": "Um ano",
+    "mtd": "Mês até à data",
+    "qtd": "Quarto até à data",
+    "ytd": "Ano até à data"
+  },
+  "status": {
+    "processing": "Em processamento",
+    "ready": "Pronto",
+    "downloaded": "Descarregado",
+    "creating": "Criando"
+  },
+  "message": {
+    "hello": "Olá"
+  },
+  "notAvaible": {
+    "title": "Afrus ainda não está disponível para dispositivos móveis",
+    "subtitle": "Por favor, acesse Afrus a partir de um compoutador. Em breve teremos suporte para dispositivos móveis",
+    "exit": "Sair"
+  },
+  "common": {
+    "select": "Selecione",
+    "optional": "(Optional)",
+    "more": "Mostre mais",
+    "loading": "Carregando, aguarde",
+    "percentageConversions": "Porcentagem de conversões",
+    "conversions": "Conversões",
+    "created_at": "Criado em",
+    "amount": "Valor",
+    "views": "visualizações",
+    "view": "Ver",
+    "interactions": "Interações",
+    "request": "Solicitação",
+    "email": "E-mail",
+    "emails": "E-mails",
+    "password": "Senha",
+    "name": "Nome",
+    "internal_name": "Nome interno",
+    "event": "Evento",
+    "events": "Eventos",
+    "description": "Descrição",
+    "token_invalid_or_expired": "O token expirou ou é inválido",
+    "signout": "Terminar sessão...",
+    "exit": "Saída",
+    "auth": {
+      "footer": {
+        "help": "Ajuda",
+        "privacy": "Privacidade",
+        "terms": "Termos"
+      }
+    },
+    "view_details": "Ver detalhes",
+    "transaction_id": "Transação de ID",
+    "conversion_id": "Conversão de ID",
+    "member_id": "ID pessoa",
+    "origin": "Origem",
+    "impressions": "Impressões",
+    "change": "Alterar",
+    "url": "URL",
+    "success": "¡Pronto!",
+    "file": "Arquivo",
+    "transaction": "Transação",
+    "leads": "Leads",
+    "filter_by": "Filtrar por",
+    "modify": "Modificar",
+    "error": "Houve um erro",
+    "total_transactions": "Total de transações",
+    "total_subscriptions": "Total de assinaturas",
+    "total_unique_donations": "Total de doações únicas",
+    "total_abandoned": "Total abandonado",
+    "new_subscriptions": "Novas assinaturas",
+    "total_amount_collected": "Montante total capturado",
+    "total_amount_collected_recurrences": "Montante total capturado por recorrências",
+    "total_amount_collected_unique_donations": "Montante total capturado por doações únicas",
+    "status": "Status",
+    "all": "Todo",
+    "no_results_found": "nenhum resultado encontrado",
+    "transaction_date": "Data da transação",
+    "email_sent": "Correio enviado",
+    "date_issue": "Data de emissão",
+    "forms": "Formulários",
+    "important": "IMPORTANTE!",
+    "go_to_settings": "Vá para as configurações",
+    "donors": "Doadores",
+    "donations": "Doações",
+    "transactions": "Transações",
+    "unique_transactions": "Transações únicas",
+    "subscriptions": "Assinaturas",
+    "download": "Baixar",
+    "select_year": "Selecione o ano",
+    "total_registrations": "Registros totais",
+    "user": "Usuário",
+    "new_people": "Novas pessoas",
+    "new_sign_ups": "Novas inscrições",
+    "one_time_donations": "Doações únicas",
+    "abandoned_carts": "Carrinhos abandonados",
+    "recurrency_qty": "Qtd de recorrência",
+    "recurrency_amount": "Quantidade de recorrência",
+    "charge_qty": "Quantidade de carga",
+    "charges_amount": "Montante das Cobranças",
+    "sign_ups_amount": "Número de assinaturas",
+    "sign_ups_average": "Média de inscrições",
+    "successful_payments": "Pagamentos bem sucedidos",
+    "one_time_donations_average": "Média de doações únicas",
+    "income": "Renda",
+    "average_gift": "Presente Médio",
+    "not_found": "{name} não encontrado",
+    "title": "Título",
+    "translation": "Tradução | Traduções",
+    "language": "Língua | Línguas",
+    "gallery": "Galeria"
+  },
+  "navbar": {
+    "account": "conta",
+    "profile": {
+      "title": "Perfil",
+      "settings": "Configurações de Perfil"
+    },
+    "logout": "Logout",
+    "organization": {
+      "title": "Organização",
+      "settings": "Configurações da Organização"
+    }
+  },
+  "recover": {
+    "title": "Recuperação de Senha do Sistema Afrus",
+    "subtitle": "Digite o email para continuar",
+    "button": "Recuperar",
+    "error": "Ocorreu um erro ao atualizar a senha",
+    "errorNotFound": "O email não está associado a uma conta",
+    "confirm_password": "Recuperar Senha",
+    "main": "Esqueceu a senha?",
+    "emailSend": "Enviámos um email para continuar com a recuperação da senha.",
+    "changeSuccess": "Senha modificada com sucesso!",
+    "click_here": "Clique aqui"
+  },
+  "sign-in": {
+    "notaccount": "Ainda não tem uma conta?",
+    "register": "Registre-se",
+    "main_title": "Assinar em",
+    "title": "Bem-vindo ao Afrus.app",
+    "subtitle": "Coloque seu email e senha para continuar",
+    "error": "E-mail ou senha incorretos.",
+    "email": "E-mail",
+    "password": "Senha",
+    "login": "Entrar",
+    "signin": "Login"
+  },
+  "sign-up": {
+    "afrus_terms_and_conditions": "Termos e condições AFRUS.APP",
+    "password": {
+      "main-title": "Crie uma senha",
+      "title": "{name}, já está quase termnando",
+      "subtitle": "Uma senha é necessária para continuar seu processo de registro",
+      "continue": "Continuar"
+    },
+    "pay": {
+      "main-title": "Adicionar cartão",
+      "title": "Agora, por favor, digite os detalhes do seu cartão exatamente como estão impressos",
+      "subtitle": "Lembre-se que você tem 30 dias grátis",
+      "creditcard": "Cartão de crédito",
+      "message": "Eu não tenho cartão de crédito, por favor, me diga outra maneira de pagar.",
+      "click-here": "Clique aqui",
+      "terms": "Concordo com os termos e taxas",
+      "another-pay": "Não se preocupe {name}, te enviaremos um email explicando todos os métodos de pagamento",
+      "finish": "Terminar"
+    },
+    "fields": {
+      "organization": {
+        "name": "Nome da empresa",
+        "website": "Site web"
+      },
+      "country": "País",
+      "currency": "Moeda",
+      "first_name": "Último nome",
+      "last_name": "Último nome",
+      "email": "E-mail",
+      "phone": "Número de telefone",
+      "password": "Senha",
+      "confirm_password": "Confirme a Senha",
+      "check_terms": "Termos e Condições",
+      "check_privacity": "Política de privacidade"
+    },
+    "main": {
+      "title": "Oi! Esta é a plataforma {name}",
+      "subtitle": "A maneira mais fácil e rápida de gerenciar suas campanhas de captação de recursos e receber doações por meio do site da sua organização.",
+      "createCampaign": "Crie sua primeira campanha",
+      "signIn": "Entrar em vez disso",
+      "freeTrial": "Avaliação gratuita por 3 meses",
+      "next": "Próximo",
+      "back": "De volta",
+      "step": "Etapa {step} de {max}"
+    },
+    "step1": {
+      "title": "Primeiro. vamos começar com a organização",
+      "labels": {
+        "name": "Coloque o nome da sua organização",
+        "website": "Site da sua organização",
+        "terms": "Eu aceito os termos de "
+      }
+    },
+    "step2": {
+      "title": "Agora, temos que confirmar dois dados importantes",
+      "country": "Por favor, confirme o país do",
+      "currency": "Por favor, confirme a moeda padrão que você recebe doações",
+      "labels": {
+        "country": {
+          "label": "O país é",
+          "hint": "O país é obrigatório para configurar sua campanha"
+        },
+        "currency": {
+          "label": "A moeda é",
+          "hint": "A moeda é obrigatória para configurar suas doações"
+        }
+      }
+    },
+    "step3": {
+      "title": "Você está a apenas alguns segundos da criação da sua conta e você terá acesso a toda a experiência de nossa plataforma. Preencha os detalhes.",
+      "labels": {
+        "first_name": "Primeiro nome",
+        "last_name": "Último nome",
+        "email": "O email",
+        "phone": "Número de telefone",
+        "password": "Senha",
+        "confirmPassword": "Confirme a Senha",
+        "country": "País"
+      },
+      "detail": "Você será o administrador da conta do AFRUS, já que está criando a conta",
+      "create": "Create my account",
+      "check_terms": "eu aceito os termos e condições",
+      "check_privacity": "Aceito a política de privacidade",
+      "accept_terms": "Eu aceito os termos e condições",
+      "dont_accept_terms": "Não aceito",
+      "select_country": "Selecione o pais"
+    },
+    "helpers": {
+      "admin": {
+        "title": "O que é um administrador?",
+        "description": "Um administrador é a pessoa que gerencia sua conta da organização. Os administradores podem adicionar e remover usuários, redefinir a senha e muito mais. Você sempre pode atribuir a função de administrador a outra pessoa mais tarde."
+      }
+    },
+    "invite": {
+      "textConfirm": "Muito obrigado por usar o Afrus, pressione o botão confirmar para concluir com o convite",
+      "success": "Confirmamos sua conta, faça o login",
+      "buttonInvite": "Confirme"
+    },
+    "errors": {
+      "user_already_exist": "O utilizador já existe",
+      "organization_already_exist": "Organização já existe",
+      "phone": "Não é um número de telefone válido",
+      "register": "Ocorreu um erro ao registrar o usuário",
+      "user_already_exist_in_organization": "O usuário já existe nesta organização"
+    }
+  },
+  "welcome": {
+    "great": "Ótimo!",
+    "congratulations": "Bom trabalho! {name}, agora você tem o seu Afrus",
+    "confirmation": "Conseguimos confirmar sua conta corretamente",
+    "subtitle": "Enviámos-lhe um email para confirmar o seu endereço de email, siga o link que.",
+    "continue": "Vamos continuar criando sua primeira campanha?",
+    "detail": "Este é o básico que você precisa para configurar a plataforma, depois disso você pode aprender mais sobre como gerenciar seus doadores.",
+    "accept": "Sim, vamos lá",
+    "panel": "Não, vá direto para o meu painel",
+    "toPanel": "Vá ao meu painel",
+    "toSignIn": "Vá ao login",
+    "save": "Salve",
+    "letPanel": "Vamos ao seu painel Afrus",
+    "hint": "Há mais coisas que temos para configurar, mas vamos ver o seu painel e lá vamos dar mais instruções",
+    "campaign": {
+      "title": "Crie minha primeira campanha",
+      "labels": {
+        "internalName": "Nome da campanha interna",
+        "publicName": "Nome público",
+        "description": "Descrição",
+        "currency": "Moeda",
+        "goal": "Objetivo"
+      }
+    },
+    "form": {
+      "title": "Crie meu primeiro formulário",
+      "subtitle": "Crie meu primeiro formulário de doação",
+      "labels": {
+        "name": "Nome do formulario",
+        "frequency": {
+          "title": "Qual frequência você quer receber doações?",
+          "once": "Uma vez",
+          "monthly": "Por mês",
+          "yearly": "Anual",
+          "both": "Ambos"
+        }
+      }
+    },
+    "options": {
+      "email": "Confirme seu endereço de e-mail",
+      "campaign": "Crie uma campanha",
+      "form": "Criar um formulário de doação",
+      "organization": "Perfil completo da organização",
+      "gateway": "Integrar um gateway de pagamento",
+      "website": "Instale o formulário Giving no seu site",
+      "notification": "Ative suas notificações por e-mail",
+      "member": "Obtenha seu primeiro pessoa",
+      "donation": "Receba sua primeira doação"
+    }
+  },
+  "forms": {
+    "empty": "Não há formas",
+    "open_to_test": "Aberto para teste",
+    "loading": "Carregando formulários",
+    "get_error": "Ocorreu um erro ao obter os formulários",
+    "get_error_details": "Ocorreu um erro ao obter os dados do formulário",
+    "base_form": "Forma base",
+    "list_forms": "Lista de formulários",
+    "status": {
+      "title": "Status",
+      "completed": "Completado",
+      "failed": "Falha"
+    },
+    "common": {
+      "editForm": "Editar formulário",
+      "deleteForm": "Excluir formulário",
+      "cloneForm": "Clonar formulário",
+      "metadataForm": "Mostrar metadatos",
+      "page_view": "Visualização de página",
+      "empty_forms_interactions": "Não há interações registradas para este formulário.",
+      "file_name_export": "Últimas conversões do formulário '{form}'",
+      "file_name_export_abandoned": "Doadores abandonado do formulário '{form}'",
+      "status": {
+        "completed": "Concluído",
+        "failed": "Falhou"
+      },
+      "delete": {
+        "title": "Tem certeza de que deseja excluir este formulário?",
+        "description": "O formulário será excluído, esta ação não pode ser revertida",
+        "accept": "Aceitar",
+        "cancel": "Cancelar"
+      }
+    },
+    "leadForm": {
+      "navbar": {
+        "title": "Formulário de captação",
+        "button": "Novo"
+      },
+      "countries-drawer": {
+        "navbar": {
+          "title": "Adicionar países",
+          "button": "SALVAR"
+        },
+        "title": "Idiomas",
+        "subtitle": "Faça uma tradução para cada país.",
+        "multiple-language": {
+          "label": "Aceitar vários idiomas",
+          "hint": "O idioma muda dependendo do país de acesso do usuário."
+        },
+        "add-button": "Adicione um país",
+        "add-country": {
+          "title": "Adicionar país",
+          "button": "Salvar",
+          "main": {
+            "title": "Selecione um país que você deseja receber doações",
+            "country": {
+              "label": "Selecione um pais",
+              "info": "País ao qual as traduções são aplicadas"
+            },
+            "language": {
+              "label": "Idioma",
+              "info": "Idioma que será traduzido"
+            }
+          },
+          "texts": {
+            "main": "Textos",
+            "title": "Título",
+            "description": "Descrição",
+            "footer": "Rodapé",
+            "next": "Botão de próximo",
+            "donate": "Botão de doar",
+            "terms": "Termos & Condições",
+            "unique": "Uma vez",
+            "monthly": "Por mês",
+            "yearly": "Anual"
+          }
+        }
+      },
+      "save": {
+        "terms": {
+          "success": "Configuração dade Termos & Condições está salva.",
+          "error": "Houve um erro na configuração de Termos & Condições."
+        }
+      },
+      "template": {
+        "campaign": "Qual campanha você deseja registrar?"
+      },
+      "layout-drawer": {
+        "advanced": {
+          "docs": {
+            "title": "Documentos"
+          }
+        }
+      }
+    },
+    "givingForm": {
+      "navbar": {
+        "title": "Formulário de Doação",
+        "button": "Novo"
+      },
+      "layout-drawer": {
+        "form-active": "Formulário ativo",
+        "button": "Salvar",
+        "embedCode": "Código de importação",
+        "code": {
+          "title": "Instale o formulário de doação em seu site",
+          "subtitle": "Copie o código abaixo e cole-o em sua página.",
+          "instruction": "Insira este código no HTML de sua página. O formulário vai aparecer no lugar onde você copiou o código",
+          "footer": "Para obter mais informações sobre como instalar o snippet de formulário, visite nosso",
+          "link": "Guia rápido"
+        },
+        "activeForm": {
+          "title": "Ativação de formulários",
+          "subtítulo": "Para ativar o formulário, você precisa atender aos seguintes requisitos",
+          "layout": "Escolha o layout",
+          "campaign": "Escolha uma campanha",
+          "gateway": "Escolha uma forma de pagamento",
+          "country": "Escolha um país"
+        },
+        "content": {
+          "title": "CONTEÚDO",
+          "settings": {
+            "title": "Definições",
+            "template-use": "Qual modelo você quer usar?",
+            "campaign": "Campanhas",
+            "gateway": "Gateway",
+            "methods": "Modos de Pagamento",
+            "field": {
+              "campaign": "Campanha",
+              "payment": "Meio de pagamento"
+            },
+            "customFieldError": "Você deve adicionar os seguintes aliases a customFields: <b> {slugs} </b>. O formulário pode ter problemas"
+          },
+          "donations": {
+            "title": "Doações",
+            "frecuency": {
+              "title": "Selecionar periodicidades",
+              "unique": "Somente",
+              "monthly": "Por mês",
+              "both": "Ambos",
+              "none": "Nenhum",
+              "default": "Selecione uma periodicidade para deixar ativo por padrão"
+            },
+            "gateways": {
+              "title": "Selecionar gateways",
+              "info": "Você pode selecionar várias opções, mas deve pelo menos deixar uma selecionada."
+            },
+            "methods": {
+              "title": "Empatar periodicidad y medios de pago"
+            },
+            "gifts": {
+              "title": "Doações",
+              "suggest": {
+                "label": "Não quero sugerir quantias",
+                "hint": "Seu doador verá somente um campo aberto para digitar o valor"
+              },
+              "write_suggest": "Ambos os campos não podem ser desativados",
+              "write": {
+                "label": "Quero o valor",
+                "hint": "Seu doador verá apenas um campo aberto para escolher uma quantia"
+              },
+              "phrase": {
+                "label": "Eu quero escrever uma frase para cada quantia"
+              }
+            },
+            "international-settings": {
+              "title": "Configurações Internacionais",
+              "countries": "Adicione mais países"
+            }
+          }
+        },
+        "style": {
+          "title": "Estilo",
+          "formInput": "Selecione um estilo para os campos do formulário",
+          "mainTitle": "Título",
+          "reset": "Reset",
+          "mainDescription": "Descrição",
+          "mainFooter": "Rodapé",
+          "titleStyle": {
+            "align": "Alinhar",
+            "textColor": "Cor do texto",
+            "fontFamily": "Fontes",
+            "size": "Tamanho",
+            "weight": "Peso",
+            "style": "Estilo",
+            "transform": "Transformação",
+            "decoration": "Decoração",
+            "lineHeight": "Altura da linha",
+            "letterSpacing": "Espaçamento entre letras",
+            "verticalSpacing": "Espaçamento vertical"
+          },
+          "formStyle": {
+            "title": "Estilo do formulário",
+            "fontFamily": "Fontes",
+            "mainColor": "Cor Principal",
+            "header": "Cabeçalho",
+            "headerColor": "Cor do cabeçalho",
+            "textErrorColor": "Cor do texto do erro",
+            "resultTextColor": "Cor do texto do resultado",
+            "buttonsColor": "Cor dos botões",
+            "backgroundColor": "Cor do fundo",
+            "textColor": "Cor do texto",
+            "border": "Bordas",
+            "borderSize": "Tamanho da borda",
+            "borderRadius": "Raio da Borda",
+            "borderColor": "Cor da borda",
+            "shadow": "Sombra",
+            "border_content": "Conteúdo da borda",
+            "shadow_content": {
+              "title": "Conteúdo da sombra",
+              "horizontal": "Horizontal",
+              "vertical": "Vertical",
+              "blur": "Blur",
+              "spread": "Spread",
+              "color": "Cor"
+            }
+          }
+        },
+        "advanced": {
+          "title": "Avançado",
+          "formField": {
+            "title": "Campos do formulário",
+            "paulusFields": {
+              "title": "Selecione campos padrão que você deseja obter informações de benfeitores"
+            },
+            "customFields": "Selecione campos personalizados que você deseja mostrar no formulário",
+            "show": "Exibir",
+            "required": "Requerido"
+          },
+          "thanyoupage": {
+            "title": "Página de agradecimento",
+            "campaign": "Usar a página de agradecimento da campanha",
+            "campaign_hit": "Após a doação, seu benfeitor será redirecionado para a página de agradecimento criada na campanha",
+            "campaing_alert": "Há países que não têm a mesma tradução em campanhas, por favor, verifique suas páginas de agradecimento",
+            "external": "Use a página de agradecimento externa.",
+            "external_hit": "Após preencher o formulário, seu cliente será redirecionado para a página de agradecimento fornecida",
+            "url": "URL da página de agradecimento",
+            "url_hit": "Se você já tem uma página de agradecimento externa, coloque-a aqui",
+            "with_lead": "Ativar formulário de doação",
+            "with_lead_hit": "Quando os leads são registrados, eles serão direcionados para uma página de doação, onde podem doar e seus dados serão preenchidos automaticamente."
+          },
+          "analytics": {
+            "title": "Analytics",
+            "text": "Coloque aqui seu código de acompanhamento do Google Analytics",
+            "analytics_track": "Acompanhamento do Analytics",
+            "track_code": "Track code",
+            "facebook_pixel": "Pixel do Facebook"
+          },
+          "terms": {
+            "title": "Termos y Condições",
+            "checkbox": "Mostrar Checkbox",
+            "description": "Descrição",
+            "active": "Ativo",
+            "url": "URL da página de Termos y Condições",
+            "url_hit": "Se você já tem uma página de Termos y Condições externa, coloque-a aqui"
+          }
+        },
+        "submenu": {
+          "reset": "Restaurar padrão",
+          "archive": "Arquivar formulário"
+        }
+      },
+      "countries-drawer": {
+        "navbar": {
+          "title": "Adicionar países",
+          "button": "SALVAR"
+        },
+        "title": "Idiomas e Moedas",
+        "subtitle": "Receba doações em moedas diferentes e faça uma tradução para cada país.",
+        "hint": "Você está usando {gateway} para receber doações, talvez você não possa aceitar algumas moedas.",
+        "multiple-language": {
+          "label": "Aceitar vários idiomas",
+          "hint": "O idioma muda dependendo do país de acesso do usuário."
+        },
+        "multiple-currency": {
+          "label": "Aceitar várias moedas",
+          "hint": "Você só pode escolher moedas aceitas por {gateway}"
+        },
+        "choose-currency": {
+          "label": "Benfeitor pode escolher a moeda"
+        },
+        "add-button": "Adicione países",
+        "add-country": {
+          "title": "Adicionar país",
+          "button": "Salvar",
+          "main": {
+            "title": "Selecione um país que você deseja receber doações",
+            "country": {
+              "label": "Selecione um pais",
+              "info": "País ao qual as traduções são aplicadas"
+            },
+            "language": {
+              "label": "Idioma",
+              "info": "Idioma que será traduzido"
+            },
+            "currency": {
+              "label": "Moeda",
+              "info": "Moeda que será aplicada",
+              "error": "Seu gateway {gateway} não suporta a moeda deste país. Neste caso, voê só pode receber em sua moeda padrão."
+            }
+          },
+          "gifts": {
+            "title": "Doações",
+            "amounts": {
+              "product": "Produto",
+              "title": "Valores",
+              "subtitle": "Seu benfeitor poderá escolher um deles",
+              "info": "Valor padrão estabelecido para doações",
+              "phrase": "Será dado por",
+              "default": "Valor padrão",
+              "amount1": "Montante 1",
+              "amount2": "Montante 2",
+              "amount3": "Montante 3",
+              "amount4": "Montante 4",
+              "minimal": {
+                "label": "Valor mínimo aceito",
+                "info": "Se refere ao valor mínimo que se pode aceitar para uma doação"
+              }
+            }
+          },
+          "texts": {
+            "main": "Textos",
+            "title": "Título",
+            "description": "Descrição",
+            "footer": "Rodapé",
+            "next": "Botão de próximo",
+            "donate": "Botão de doar",
+            "unique": "Uma vez",
+            "monthly": "Por mês",
+            "yearly": "Anual",
+            "text_product": "Texto do Produto",
+            "text_frequency": "Textos das frequências",
+            "text_form": "Textos da estrutura do formulário"
+          }
+        }
+      },
+      "template": {
+        "campaign": "Para qual campanha você gostaria de contrubuir?",
+        "stepForm": {
+          "navTitle": {
+            "choose_amount": "Escolha um valor",
+            "personal_info": "Informações pessoais",
+            "address": "Endereço",
+            "payment_info": "Informações de pagamento",
+            "additional_information": "Informação Adicional",
+            "representant_info": "Dados do representante",
+            "deduction_data": "Dados de dedução"
+          },
+          "choose_amount_monthly": "Escolha um valor para contribuir mensalmente",
+          "choose_amount_once": "Escolha um valor para contribuir uma vez",
+          "giving": "Contribuindo com",
+          "donating": "Doação",
+          "per_month": "por mês",
+          "per_year": "por ano",
+          "change": "alterar"
+        },
+        "choose_method": "ESCOLHA UM MÉTODO DE PAGAMENTO",
+        "styled_line_not_avaibled": "Estilo de linha não disponível com este layout",
+        "quantity": "Quantidade",
+        "total_value": "TOTAL",
+        "fields": {
+          "treatment": "Tratamento",
+          "treatment_type": {
+            "mr": "Sr.",
+            "mrs": "Sra."
+          },
+          "first_name": "Nome",
+          "last_name": "Sobrenome",
+          "full_name": "Nome Completo",
+          "email": "E-mail",
+          "phone": "Telefone",
+          "gender": {
+            "title": "Gênero",
+            "male": "Masculino",
+            "female": "Feminino"
+          },
+          "documentation_type": "Tipo de documento",
+          "documentation": "Documento",
+          "tax_identification_number": "Número de identificação fiscal",
+          "relief_text": "Quero deduzir minha contribuição na demonstração de resultados",
+          "isBusiness": "Eu sou uma empresa",
+          "isParticular": "Eu sou particular",
+          "business_name": "Nome da empresa",
+          "name_legal_representative": "Name of legal representative",
+          "legal_representative_document": "Documento de representante legal",
+          "name_road": "Nome da estrada",
+          "type_road": "Tipo de estrada",
+          "number": "Number",
+          "floor": "Plant",
+          "door": "Door",
+          "letter": "Carta",
+          "province": "Província",
+          "autonomy": "Autonomia",
+          "location": "localização",
+          "amount": "Outro valor",
+          "born_date": "Data de nascimento",
+          "country": "País",
+          "address1": "Endereço",
+          "address2": "Complemento",
+          "address_complete": "Endereço completo",
+          "city": "Cidade",
+          "department": "Departamento",
+          "organization": "Organização",
+          "zipcode": "CEP",
+          "state": "Estado",
+          "street": "Rua",
+          "unicef": {
+            "card_number": "Número do Cartão",
+            "bank_number": "Conta do Banco",
+            "card_expiration_date": "Data de Expiração do Cartão",
+            "banks": "Banco",
+            "card": "CARTÃO",
+            "ticket": "Boleto",
+            "payment_method": "Metodo de pago"
+          },
+          "street_number": "Número",
+          "credit_name": "CARTÃO DE CRÉDITO",
+          "paypal_name": "PAYPAL",
+          "credit_number": "Número do cartão de crédito",
+          "paypal_account": "E-mail (conta Paypal)",
+          "bank_name": "CONTA BANCÁRIA",
+          "bank_account": "Número da conta",
+          "payment_policy": "Concordo com as Políticas de Privacidade",
+          "payment_information": "Gostaria de receber e-mails com mais informações."
+        }
+      },
+      "create": {
+        "success": "Formulário criado com sucesso",
+        "error": "Ocorreu um erro ao criar o formulário"
+      },
+      "open": {
+        "error": "Ocorreu um erro ao abrir o formulário"
+      },
+      "clone": {
+        "success": "Formulário clonar com sucesso",
+        "error": "Ocorreu um erro ao clonar o formulário"
+      },
+      "save": {
+        "addCountry": {
+          "success": "País adicionado com sucesso",
+          "error": "Houve um erro ao salvar o país"
+        },
+        "updateCountry": {
+          "success": "País atualizado com sucesso",
+          "error": "Ocorreu um erro ao atualizar o país"
+        },
+        "configurations": {
+          "success": "Configuração salva",
+          "error": "Houve um erro ao salvar a configuração"
+        },
+        "layout": {
+          "success": "Layout selecionado",
+          "error": "Houve um erro ao selecionar o layout"
+        },
+        "donations": {
+          "success": "Configuração da doação salva",
+          "error": "Ocorreu um erro ao salvar as configurações de doação"
+        },
+        "styles": {
+          "success": "Configurando estilos",
+          "error": "Houve um erro ao definir os estilos"
+        },
+        "thankpage": {
+          "success": "Configuração da página de agradecimento salva",
+          "error": "Houve um erro ao tenatar salvar a página de agradecimento"
+        },
+        "analytics": {
+          "success": "Configuração da analytics salva.",
+          "error": "Houve um erro na configuração de analytics."
+        },
+        "terms": {
+          "success": "Configuração de Termos salva.",
+          "error": "Houve um erro na configuração de Termos."
+        }
+      },
+      "delete": {
+        "success": "Formulário excluído com sucesso",
+        "error": {
+          "contain": "O formulário não pode ser excluído porque possui registros"
+        }
+      },
+      "choose": {
+        "frequency": {
+          "once": "Escolha o valor de sua doação",
+          "monthly": "Escolha o valor de sua doação mensal",
+          "yearly": "Escolha o valor de sua doação ano"
+        },
+        "campaign": "Você está doando para a campanha {campaign}",
+        "gateway": {
+          "error": "Selecione um gateway para continuar"
+        },
+        "payment_method": {
+          "bank": "Banco",
+          "card": "Cartão",
+          "card_without_cvv": "Cartão sem cvv",
+          "ticket": "Boleto",
+          "pse": "PSE",
+          "cash": "Dinheiro",
+          "debit": "Débito",
+          "atm": "ATM",
+          "error": "Selecione uma forma de pagamento para continuar"
+        },
+        "campaignError": "Escolha uma campanha para continuar"
+      }
+    },
+    "leadsAdvancedForms": {
+      "navbar": {
+        "title": "Formulário de leads avanzados",
+        "button": "NOVO FORMULÁRIO DE LEADS AVANZADOS"
+      }
+    },
+    "crowdFundingPetition": {
+      "button": "NOVO FORMULÁRIO DE PEDIDO",
+      "template": {
+        "fields": {
+          "fundation": "Fundação",
+          "nameProject": "Nome do projeto",
+          "descriptionProject": "Descrição",
+          "goal": "Objetivo"
+        }
+      }
+    }
+  },
+  "profile": {
+    "options": {
+      "personal_info": "Informações pessoais",
+      "email": "E-mail",
+      "password": "Senha",
+      "email_notifications": "Notificações por email",
+      "data": "Dados",
+      "export_file_format": "Formato de arquivo de exportação"
+    },
+    "profile": {
+      "edit": {
+        "text": "Editar",
+        "toolbar": "Editar informações pessoais"
+      },
+      "created_at": "Criado em",
+      "active": "Ativo",
+      "inactive": "Inativo",
+      "organization": "Organização",
+      "role": "Função",
+      "treatment": "Tratamento",
+      "firstname": "Nome",
+      "lastname": "Sobrenome",
+      "gender": "Gênero",
+      "phone": "Número de telefone",
+      "department": "Departamento",
+      "country": "País",
+      "language": "Idioma",
+      "timezone": "Fuso horário",
+      "currency": "Moeda",
+      "button": "SALVAE",
+      "success": "Atualizado corretamente",
+      "error": "Ocorreu um erro ao atualizar",
+      "male": "Masculino",
+      "female": "Feminino",
+      "successLang": "Atualizado com sucesso. Recarregue a página para alterar todo o idioma corretamente"
+    },
+    "email": {
+      "title": "E-mail",
+      "subtitle": "As solicitações de mudança de e-mail não serão efetivadas até que você as confirme clicando no link no e-mail de confirmação.",
+      "password": "Verificar a senha atual",
+      "button": "SALVAR",
+      "success": "Seu email foi alterado com sucesso",
+      "modal": "Você receberá um email contendo um link para confirmar a mudança. Por favor verifique sua caixa de entrada."
+    },
+    "password": {
+      "verify": "Verificar a senha atual",
+      "current": "Senha atual",
+      "new": "Nova senha",
+      "confirm": "Confirme a nova senha",
+      "button": "SALVAR MUDANÇAS",
+      "success": "Sua senha foi atualizada com sucesso",
+      "error": "Ocorreu um erro ao atualizar a senha"
+    },
+    "notifications": {
+      "email": {
+        "title": "NOTIFICAÇÕES DE E-MAIL",
+        "announcements": "Anúncios",
+        "community": "Atualização da Comunidade",
+        "feedback": "Feedback & Pesquisas",
+        "milestones": "Marcos e Notificações",
+        "resources": "Recursos, dicas e guias"
+      },
+      "general": {
+        "title": "NOTIFICAÇÕES",
+        "daily": "Resumo diário",
+        "week": "Resumo da semana",
+        "every": "Cada transação",
+        "lead": "Para cada Lead",
+        "donation": "Para cada doação",
+        "subscription": "Para cada subscrição"
+      },
+      "success": "Salvo corretamente",
+      "error": "Ocorreu um erro ao atualizar suas notificações"
+    },
+    "data": {
+      "title": "Gerenciamento de dados",
+      "subtitle": "Cumprir as regulamentações de Política de privacidade,  garantimos que os clientes tenham controle total sobre seus dados. Adicionamos algumas ferramentas rápidas para ajudar a exportar e excluir seus dados.",
+      "learn": "Saiba mais sobre os",
+      "gdpr": "regulamentos do GDPR",
+      "export": {
+        "title": "Exportar todos os meus dados",
+        "subtitle": "Um arquivo será gerado com uma cópia de todos os dados associados à sua conta.",
+        "button": "Exportar meus dados",
+        "success": "Você receberá um e-mail contendo todos os dados associados a toda a sua conta.",
+        "close": "Fechar"
+      },
+      "delete": {
+        "title": "Deletar conta",
+        "subtitle": "Excluiremos todos os seus dados e sua conta para que não possam ser recuperados e enviaremos um e-mail quando o processo estiver concluído.",
+        "button": "Deletar minha conta",
+        "text": {
+          "title": "Confirme que você deseja excluir sua conta",
+          "text2": "Isso apagará permanentemente:",
+          "option1": "Seu perfil",
+          "option2": "Todos os seus dados",
+          "footer": "Seu histórico continuará sendo controlado por outros pessoas."
+        },
+        "type": "Digite 'EXCLUIR' em maiúsculas para excluir permanentemente sua conta",
+        "type_text": "EXCLUIR",
+        "modal": {
+          "title": "Você receberá um e-mail confirmando que sua conta foi excluída.",
+          "description": "Clique em Sair para fechar o sistema",
+          "logout": "Sair"
+        }
+      }
+    },
+    "error": "Ocorreu um erro ao obter informações de perfil",
+    "export_file": {
+      "date_format": "Formato de data",
+      "decimal_format": "Formato decimal"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "aside": {
+      "dashboard": "Dashboard",
+      "transactions": "Transações",
+      "subscriptions": "Assinaturas",
+      "donors": "Benfeitores",
+      "members": "Pessoas",
+      "leads": "Leads",
+      "campaigns": "Campanhas",
+      "forms": {
+        "title": "Formulários",
+        "givingForms": "Formulários de doação",
+        "leadsForms": "Formulário de leads",
+        "leadsDocsForms": "Formulário de Leads avanzados",
+        "abTest": "Teste A/B"
+      },
+      "reports": "Relatórios",
+      "filters": "Segmentos",
+      "recurring_debit": "Débito recorrente bancário",
+      "downloads": "Transferências",
+      "imports": "Importações",
+      "email": {
+        "title": "Autoresponders",
+        "my-emails": "Meus e-mails",
+        "templates": "Modelos"
+      },
+      "landing": {
+        "title": "Landings pages",
+        "pages": "Páginas",
+        "domains": "Domínios",
+        "templates": "Modelos"
+      },
+      "certificates": {
+        "title": "Certificados",
+        "summary": "Resumo",
+        "record": "Registro",
+        "events": "Eventos",
+        "templates": "Modelos",
+        "emails": "Emails",
+        "manual": "Transmissão manual",
+        "configuration": "Configuração"
+      },
+      "claro-docs": "Leads Avanzados",
+      "sds": "SDS"
+    },
+    "main": {
+      "timeline": "Linha do Tempo",
+      "newMembers": "Novos pessoas",
+      "oneTime": "Únicas",
+      "recurrency": "Recorrentes",
+      "successPayment": "Transação bem sucedida",
+      "totalTransaction": "Transação Total",
+      "supporter": "Receita média por benfeitor",
+      "performance": "Atuação",
+      "performanceForm": "Desempenho de formulários",
+      "leads": "Leads",
+      "anonymous": "Anônimos",
+      "form": {
+        "title": "Formulários",
+        "name": "Nome",
+        "results": "Resultados",
+        "amount": "Recebido"
+      },
+      "conversion": {
+        "lead": "Lead",
+        "donation": "Doação",
+        "subscription": "Recorrente",
+        "conversions": "Conversões"
+      },
+      "lastConversion": {
+        "title": "Última Conversão",
+        "name": "Nome",
+        "email": "E-mail",
+        "date": "Data",
+        "conversion": "Conversão",
+        "amount": "Valor"
+      },
+      "error": "Ocorreu um erro ao obter as informações"
+    }
+  },
+  "errors": {
+    "auth": {
+      "currentPassword": {
+        "match": "A senha do usuário não corresponde"
+      }
+    },
+    "sign-up": {
+      "email": {
+        "unique": "Validação exclusiva falhou no email"
+      }
+    },
+    "sign-in": "Nome de usuário ou senha incorreta",
+    "Arquivo não encontrado": "Ocorreu um erro ao baixar o arquivo, o arquivo não pode ser encontrado"
+  },
+  "success": {
+    "auth": {
+      "profile": {
+        "changePassword": "A senha do usuário foi alterada com sucesso"
+      }
+    },
+    "sign-up": "Usuário registrado com sucesso",
+    "sign-in": "Bem-vindo!"
+  },
+  "account": {
+    "title": "Conta",
+    "email": {
+      "email": "As solicitações de mudança de e-mail não terão efeito até que você as confirme clicando no link do e-mail de confirmação",
+      "password": "Verifique a senha atual"
+    }
+  },
+  "organization": {
+    "name": "Sobrenomes e nomes, nome e nome da empresa",
+    "organization": "Organização",
+    "drawer": {
+      "profile": "Perfil da organização",
+      "currency": "Moeda da organização",
+      "members": "Equipe",
+      "invite": "Convidar Usuário",
+      "billing": "Faturamento",
+      "gateway": "Gateways de pagamento",
+      "integrations": "Integrações",
+      "custom-fields": "Campos personalizados",
+      "docs": "Documentos",
+      "certificates": "Certificados de doação"
+    },
+    "profile": {
+      "edit": {
+        "logo": "Logo da Organização",
+        "data": "Dados da Organização",
+        "size": "Tamanho Máximo 400px x 400px",
+        "upload": "Upload"
+      },
+      "name": "Nome",
+      "created_at": "Criado em",
+      "active": "Ativo",
+      "contact_email": "Informações de contato",
+      "contact_name": "Nome de contato",
+      "website": "Site",
+      "phone": "Número de telefone",
+      "country": "País",
+      "address": "Endereço",
+      "address1": "Endereço Linha 1",
+      "address2": "Endereço Linha 2",
+      "city": "Cidade",
+      "zip_code": "CEP",
+      "identification": "NIF (Número de identificação fiscal)",
+      "tax_identification_number": "Número de identificação fiscal",
+      "business_name": "Nome da empresa",
+      "name_legal_representative": "Nome do representante legal",
+      "legal_document": "Documento",
+      "update": "Atualizar",
+      "update_success": "Atualizado com sucesso!",
+      "update_error": "Ocorreu um erro ao atualizar",
+      "get_error": "Ocorreu um erro ao obter os pessoas da equipe da organização",
+      "api_key": "Chave API",
+      "api_key_error": "Ocorreu um erro ao gerar a chave api",
+      "create_api_key": "Criar nova chave API",
+      "update_api_key": "Atualizar chave da API (você deve colocar a nova chave da API na integração do zapier)"
+    },
+    "member-advanced": {
+      "title": "Leads avançados",
+      "approved": "Aprovado",
+      "pending": "Pendente",
+      "reject": "Rejeitado",
+      "total": "Total de leads avançados",
+      "show": "Ver Documento",
+      "message": {
+        "success": "Pedido modificado com sucesso",
+        "error": "Ocorreu um erro ao modificar a solicitação."
+      },
+      "exports": {
+        "title": "Selecione o tipo de exportação",
+        "types": {
+          "audit": "Audit"
+        }
+      },
+      "status": {
+        "approved": "Aprovado",
+        "pending": "Pendente",
+        "reject": "Rejeitado",
+        "approved_cgv_coverage": "CGV aprovados",
+        "approved_documental": "Documentário aprovado",
+        "partial_reject": "Parcial rejeitado",
+        "approved_recording": "Aprovado Recording"
+      },
+      "petition": {
+        "buttons": {
+          "approved": "Aprovar"
+        },
+        "section": {
+          "approved": "Seção aprovada",
+          "updated": "Seção atualizada",
+          "error": "Ocorreu um erro ao atualizar a solicitação."
+        }
+      }
+    },
+    "members": {
+      "delete": {
+        "title": "Remover Usuário?",
+        "allow": "Sim",
+        "deny": "Não",
+        "description": "Você tem certeza de que deseja remover o usuário?",
+        "text1": "Você tem certeza que deseja remover?",
+        "text2": "de"
+      },
+      "invite": "Convidar Usuário",
+      "action": "Ações",
+      "add_role": "Adicionar à função",
+      "remove": "Remover",
+      "name": "Nome",
+      "firstname": "Nome",
+      "lastname": "Sobrenome",
+      "email": "E-mail",
+      "join": "Data de inscrição",
+      "role": "Função",
+      "remove_member": "Remover Usuário",
+      "are_you_sure_remove": "Tem certeza de que quer eliminar <b>{members}</b> de <b>{organization}</b>?",
+      "cancel": "Cancelar",
+      "change_rol_success": "A função foi alterada corretamente",
+      "change_rol_error": "Ocorreu um erro ao alterar a função",
+      "error_admin": "Certifique-se de que haverá pelo menos um Usuário da equipe como administrador antes de fazer as alterações",
+      "update_success": "Atualizado com sucesso",
+      "update_error": "Ocorreu um erro ao atualizar os dados",
+      "remove_success": "Removido com sucesso",
+      "remove_error": "Ocorreu um erro ao remover o Usuário",
+      "remove_error_owner": "Você não pode remover um usuário com uma função proprietária.",
+      "remove_error_self": "Você não pode excluir sua conta por esse método.",
+      "get_error": "Ocorreu um erro ao obter os Usuários da equipe",
+      "admin": "Administrador",
+      "member": "Usuário",
+      "save": "Salvar",
+      "edit": "Editar"
+    },
+    "invite": {
+      "members": "Insira os endereços de e-mail para convidar",
+      "members_footer": "Endereços de e-mail separados com vírgulas. Os convites expiram em uma semana",
+      "message": "Escreva uma mensagem de convite",
+      "send": "Enviar convites",
+      "success": "Seus convites foram enviados",
+      "error": "Ocorreu um erro ao enviar o convite",
+      "emailInput": "e-mails",
+      "messageInput": "mensagem",
+      "role": "Rol"
+    },
+    "currency": {
+      "currency_subtitle": "Defina a moeda padrão da sua organização abaixo. Todas as transações serão convertidas para a moeda escolhida.",
+      "currency_alert": "Certifique-se de escolher a moeda correta para sua organização, você não pode alterá-la após a primeira transação.",
+      "currency_label": "Minha moeda padrão é",
+      "save": "Salvar",
+      "no_update": "Você não pode mais alterar sua moeda padrão",
+      "update_success": "Atualizado com sucesso!",
+      "update_error": "Ocorreu um erro ao atualizar a moeda padrão"
+    },
+    "gateway": {
+      "create_success": "O gateway de pagamento foi configurado corretamente",
+      "create_error": "Ocorreu um erro ao configurar o gateway de pagamento",
+      "update_success": "Dados do gateway de pagamento atualizados",
+      "update_infobip_success": "Integração atualizada.",
+      "update_error": "Ocorreu um erro ao atualizar os dados no gateway de pagamento",
+      "remove_success": "Dados do gateway de pagamento não pago",
+      "remove_error": "Ocorreu um erro ao tentar desvincular o gateway de pagamento",
+      "save": "Salvar",
+      "unlink": "Desvincular",
+      "unlinking": "Desvinculação",
+      "confirm": "Confirmar",
+      "cancel": "Cancelar",
+      "remove": "Desvincular gateway de pagamento",
+      "remove_question": "Tem certeza de que deseja executar esta operação?",
+      "remove_info": "Se você tiver formulários configurados com esse gateway de pagamento, eles serão afetados",
+      "test_conection": "Conexão de Teste",
+      "config": "Configurar",
+      "default_campaign": "Campanha padrão",
+      "input_confirm": "Digite 'DESVINCULAR' em maiúsculas para confirmar",
+      "text_helper": "Por favor, digite seus dados de acesso à {gateway} ​​nos campos abaix",
+      "stripe": {
+        "title": "Stripe",
+        "secret_key": "Chave secreta",
+        "secret_key_test": "Chave secreta Teste",
+        "public_key": "Chave pública",
+        "public_key_test": "Chave pública teste",
+        "product_id": "ID do produto",
+        "product_id_test": "ID do produto teste",
+        "signature_webhook": "Webhook assinatura secreta"
+      },
+      "braintree": {
+        "title": "Braintree",
+        "private_key": "Chave privada",
+        "private_key_test": "Chave de teste privado",
+        "public_key": "Chave pública",
+        "public_key_test": "Chave de teste pública",
+        "merchant_id": "ID do comerciante",
+        "merchant_id_test": "Testar ID do comerciante",
+        "add_merchant_id": "Adicionar Merchant Account ID",
+        "delete_merchant_id": "Remover Merchant Account ID"
+      },
+      "payu": {
+        "title": "PayU",
+        "api_login": "API Login",
+        "api_key": "Chave API",
+        "account_id": "ID da conta",
+        "merchant_id": "ID do comerciante"
+      },
+      "mercadopago": {
+        "title": "Mercado Pago",
+        "access_token": "Token de Acesso",
+        "public_key": "Chave pública",
+        "country": "País da chave de acesso"
+      },
+      "pagarme": {
+        "title": "Pagar.me",
+        "api_key": "Chave API",
+        "encryption_key": "Chave de Criptografia"
+      },
+      "unicef": {
+        "title": "Unicef",
+        "username": "Nome de usuário",
+        "access_password": "Chave de acesso"
+      },
+      "bakery": {
+        "service": "Service",
+        "api_key": "API Key",
+        "signature": "Signature",
+        "template": "Modelo",
+        "commerce": "Nome comercial"
+      },
+      "dupay": {
+        "user": "User",
+        "api_key": "API Key"
+      },
+      "getnet": {
+        "seller_id": "Seller ID",
+        "client_id": "Client ID",
+        "client_secret": "Client Secret"
+      },
+      "ach": {
+        "api_key": "API Key"
+      },
+      "visanet": {
+        "title": "VisaNet",
+        "merchant_id": "ID do comerciante",
+        "product_id": "ID do produto"
+      }
+    },
+    "integrations": {
+      "amazon_ses": {
+        "title": "Amazon SES",
+        "preinfo": "O Amazon SES é uma plataforma de email que oferece um método simples e barato de enviar e receber email por meio de seus próprios endereços e domínios de email.",
+        "info": "IMPORTANTE! Ao integrar com o Amazon SES, você deve fornecer as seguintes informações.",
+        "invalid_keys": "Os e-mails não serão enviados enquanto você não configurar dados de acesso válidos",
+        "sns_info": "Para rastrear o status do email, configure a postagem de eventos do Amazon SNS",
+        "sns_configured": "AmazonSNS configurado",
+        "sns_not_configured": "Configure o AmazonSNS para rastrear emails em detalhes",
+        "remove": {
+          "title": "Desvincular conta do Amazon SES",
+          "text": "Tem certeza de que deseja desvincular sua conta do Amazon SES?"
+        }
+      },
+      "dpo": {
+        "text_helper": "Preencha os campos abaixo para configurar"
+      },
+      "zapier": {
+        "testing": {
+          "title": "Teste",
+          "dialog": "Insira os dados do teste"
+        }
+      },
+      "infobip": {
+        "events_title": "Eventos",
+        "definition_id": "Definition ID",
+        "event": "Evento",
+        "remove_title": "Remover evento",
+        "remove_description": "Tem certeza que deseja excluir este evento?",
+        "note": "Observação: o evento ABANDONEDS acontecerá todos os dias às 6h UTC e enviará os leads abandonados do dia anterior para a plataforma.",
+        "events_note": {
+          "title": "Nota:",
+          "subtitle": "Lembre-se de criar as propriedades correspondentes ao evento em sua conta da Infobip.",
+          "table": {
+            "name": "Nome",
+            "type": "Tipo",
+            "number": "Number",
+            "string": "Texto"
+          }
+        },
+        "text_helper": "Preencha os campos abaixo para configurar",
+        "messages": {
+          "error": {
+            "get_events": "Ocorreu um erro ao obter os eventos",
+            "get_events_not_found": "A integração ainda não possui eventos associados",
+            "add_event": "Ocorreu um erro ao adicionar o evento",
+            "update_event": "Ocorreu um erro ao atualizar o evento",
+            "remove_event": "Ocorreu um erro ao remover o evento",
+            "add_event_exist": "O evento selecionado já está associado"
+          },
+          "success": {
+            "add_event": "Evento adicionado com sucesso",
+            "update_event": "Evento atualizado com sucesso",
+            "remove_event": "Evento removido com sucesso"
+          }
+        }
+      }
+    },
+    "webhook": {
+      "active": "Ativo",
+      "zapier": {
+        "title": "Zapier",
+        "integration": "Pressione aqui para integrar com o zapier",
+        "button_integration": "Integrar",
+        "text_helper": "Seus Zaps ativos são mostrados aqui",
+        "info": "Estes são os eventos disponíveis para configurar na sua integração do Zapier com o nome do evento AFRUS e com o seu nome no Zapier",
+        "api_key": "IMPORTANTE! : Ao criar um acionador ou uma ação no Zapier, você deve fornecer a Chave da API da organização que deseja gerenciar, e levar em consideração que esse campo é obrigatório e totalmente necessário. Pode ser encontrado no perfil da organização, se você não tiver um lá, poderá gerá-lo",
+        "api_key_exist": "Esta é a chave da API da sua organização:",
+        "api_key_not_exist": "A organização não possui Api Key, deve gerá-la",
+        "event_name": "Nome do evento",
+        "zapier_trigger_name": "Nome do gatilho no Zapier",
+        "DONATION": "New Unique Donation Success",
+        "DONATIONRECURRENT": "New Recurrent Donation Success",
+        "DONATIONSTART": "New Donation Start",
+        "DONATIONFAILED": "New Donation Failed",
+        "LEAD": "New Lead Success",
+        "LEADSTART": "New Lead Start",
+        "CHARGERECURRENT": "New Charge Recurrent",
+        "DONATIONRECURRENTCANCELED": "Subscription Canceled"
+      },
+      "facebook": {
+        "title": "Facebook Leads",
+        "login": "Entrar com Facebook"
+      }
+    },
+    "custom-fields": {
+      "save": "Salvar",
+      "reorder": "Ordenar",
+      "not-groups": "Nenhum grupo",
+      "not-options": "Sem opções",
+      "not-fields": "Não há campos personalizados neste grupo",
+      "tabs": {
+        "contact": "Contato",
+        "campaign": "Campanha",
+        "fields": "Campos",
+        "groups": "Grupos",
+        "search": "Procurar",
+        "button1": "Novo",
+        "button2": "Novo grupo",
+        "group-subtitle": "Por favor insira um nome para este grupo"
+      },
+      "options": {
+        "rename": "Renomear",
+        "delete": "Excluir"
+      },
+      "table": {
+        "options": {
+          "edit-field": "Editar",
+          "disable": "Desativar",
+          "enable": "Ativar",
+          "clone": "Clone"
+        },
+        "header": {
+          "label": "Rótulo",
+          "alias": "Usuário",
+          "group": "Grupo",
+          "datatype": "Tipo de dado",
+          "order": "Ordem",
+          "status": "Status",
+          "name": "Nome de documento",
+          "formats": "Formatos",
+          "weight": "Peso"
+        }
+      },
+      "messages": {
+        "groups": {
+          "success": "Grupo criado corretamente",
+          "error": "Ocorreu um erro ao criar a grupo",
+          "success_update": "Grupo atualizado com sucesso",
+          "error_update": "Ocorreu um erro ao atualizar o grupo",
+          "success_delete": "Grupo excluído com sucesso",
+          "error_delete": "Ocorreu um erro ao excluir o grupo",
+          "reorder": "Houve um erro ao ordenar os grupos",
+          "get_error": "Ocorreu um erro ao obter os grupos da organização"
+        },
+        "ajax": {
+          "success": "Campo personalizado criado com sucesso",
+          "error": "Ocorreu um erro ao criar o campo personalizado",
+          "success_update": "Campo personalizado atualizado com sucesso",
+          "error_update": "Ocorreu um erro ao atualizar o campo personalizado",
+          "error_slug": "Alias ​​já existente",
+          "error_not_found": "Este grupo não possui campos personalizados atribuídos"
+        }
+      },
+      "fields": {
+        "title_new": "Novo campo personalizado",
+        "title_edit": "Editar campo personalizado",
+        "categories": {
+          "none": "Nenhum",
+          "personal": "Pessoal",
+          "contact": "Contato",
+          "address": "Endereço",
+          "organization": "Empresa",
+          "general": "Geral"
+        },
+        "form": {
+          "status": "Publicado",
+          "label": "Rótulo",
+          "alias": "Usuário",
+          "group": "Grupo",
+          "category": "Categoria",
+          "datatype": "Tipo de dado",
+          "options": {
+            "radio": "Seleção",
+            "options": "Opções",
+            "label": "Rótulo",
+            "value": "Valor",
+            "label_required": "Requerido",
+            "value_required": "Requerido",
+            "value_exist": "O valor já existe",
+            "add": "Adicione opções",
+            "close": "Fechar"
+          },
+          "docs": {
+            "name": "Nombre del documento",
+            "formats": "Formatos del documento aceptados",
+            "max_size": "Tamaño maximo",
+            "is_required": "Requerido"
+          },
+          "errors": {
+            "name": "O rótulo é obrigatório.",
+            "group": "O grupo é obrigatório.",
+            "type": "O tipo de dado é obrigatório.",
+            "type_options": "Para o tipo de seleção/rádio, são necessárias opções.",
+            "default_value": "Para campos ocultos, o valor padrão é obrigatório"
+          },
+          "default_value": "Valor padrão",
+          "default_value_checkbox_true": "Sim",
+          "default_value_checkbox_false": "Não",
+          "visible_on_forms": "Visível nos formulários",
+          "required": "Requerido"
+        }
+      }
+    },
+    "afrusPixel": {
+      "title": "Afrus Pixel",
+      "description1": "Um pixel de rastreamento é um gráfico de 1 × 1 pixel que rastreia o tráfego da Web, as conversões do site, o comportamento do usuário e muito mais no nível do servidor do site.",
+      "description2": "Para sua implementação, copie o código a seguir e cole-o em cada página em que você precisa acompanhar os principais usuários que interagem com seus formulários.",
+      "description3": "Cole este código em cada página:"
+    },
+    "certificates": {
+      "active": "Ativo",
+      "inactive": "inativo",
+      "info": "IMPORTANTE! Ative se desejar que os certificados sejam enviados manual ou automaticamente",
+      "automatic": "Enviando certificados automáticos",
+      "handbook": "Entrega manual de certificado",
+      "handbook_warning": "lembre-se de que, se você habilitar esta opção, ficará encarregado das remessas manuais"
+    }
+  },
+  "currencies": {
+    "error_get": "Houve um erro em obter as moedas"
+  },
+  "campaigns": {
+    "title": "Campanhas",
+    "error_get": "Ocorreu um erro ao obter as campanhas",
+    "error_create": "Ocorreu um erro ao criar a campanha",
+    "error_open": "Ocorreu um erro ao abrir a campanha",
+    "description": "Descrição",
+    "conversions_leads": "Conversões de leads",
+    "donors": "Benfeitores",
+    "transactions_true": "Transacciones efectivas",
+    "percentage_goal": "Porcentagem do objetivo",
+    "total_acquired": "Total adquirido",
+    "total_acquired_by_dates": "Total adquirido filtrado por datas",
+    "created_at": "Criado em",
+    "empty": "Não há campanhas criadas.",
+    "loading": "Carregando campanhas",
+    "options": {
+      "edit": "Editar",
+      "disable": "Desabilitar esta campanha",
+      "archive": "Arquivar esta campanha",
+      "enable": "Ativar esta campanha",
+      "delete": "Excluir esta campanha",
+      "fcm": "Mapa da campanha de captação de recursos",
+      "campaign_cost": "Custo da campanha"
+    },
+    "edit": {
+      "active": {
+        "text": "Campanha ativa",
+        "success_A": "A campanha foi ativada com sucesso",
+        "success_I": "A campanha foi desativada com sucesso",
+        "error": "Ocorreu um erro ao alterar o status da campanha"
+      },
+      "save": "Salvar",
+      "settings": "Definições",
+      "name": {
+        "text": "Nome",
+        "info": "Nome de identificação interna"
+      },
+      "public_name": {
+        "title": "Nome público",
+        "info": "Nome da campanha que será mostrado nos formulários"
+      },
+      "goal": {
+        "title": "Objetivo",
+        "info": "Coloque aqui o valor que você deseja atingir com esta campanha"
+      },
+      "description": {
+        "title": "Descrição"
+      },
+      "thank_you": {
+        "title": "Página de agradecimento",
+        "languages": {
+          "text": "Idioma",
+          "add": "Adicionar um idioma",
+          "default": {
+            "success": "Idioma padrão alterado corretamente",
+            "error": "Ocorreu um erro ao alterar o idioma padrão"
+          }
+        },
+        "edit": {
+          "images": {
+            "title": "Imagens",
+            "logo": "Logo",
+            "upload": "Carregar imagem",
+            "alignment": "Alinhar",
+            "width": "Largura",
+            "background": {
+              "text": "Fundo",
+              "position": {
+                "title": "Posição",
+                "left": "Esquerda",
+                "center": "Centro",
+                "right": "Direita",
+                "top": "Topo",
+                "bottom": "Rodapé"
+              },
+              "repeat": {
+                "title": "Repetir",
+                "true": "Repetir",
+                "false": "Não repetir"
+              },
+              "size": {
+                "title": "Tamanho",
+                "cover": "Cobrir",
+                "auto": "Auto",
+                "contain": "Conteúdo"
+              },
+              "overlay": {
+                "color": "Cor de Sobreposição",
+                "opacity": "Opacidade de sobreposição"
+              },
+              "color": "Cor de fundo"
+            }
+          },
+          "texts": {
+            "title": "Textos",
+            "text": "Texto",
+            "footer": "Rodapé",
+            "reset": "Restabelecer",
+            "info": "Dica: Você pode digitar {{ f_name }} para substituir pelo nome do seu benfeitor e {{ amount }} para substituir pelo valor da transação."
+          }
+        },
+        "create": {
+          "title": "Selecione o idioma:",
+          "cancel": "Cancelar",
+          "add": "Adicionar",
+          "success": "Idioma criado com sucesso",
+          "error": "Ocorreu um erro ao criar o idioma",
+          "please_edit": "Por favor, edite sua página de agradecimento",
+          "please_edit_button": "Editar"
+        },
+        "archive": {
+          "option": "Arquivar idioma",
+          "title": "Tem certeza de arquivar este idioma?",
+          "description": "O idioma será arquivado, mas você pode restaura-lo a qualquer momento",
+          "accept": "Arquivo",
+          "cancel": "Cancelar",
+          "success": "O idioma foi arquivada com sucesso",
+          "error": "Houve um erro ao arquivar o idioma",
+          "error_default": "Você não pode excluir o idioma padrão"
+        },
+        "update": {
+          "success": "A página de agradecimento foi atualizada corretamente",
+          "error": "Ocorreu um erro ao atualizar a página de agradecimento"
+        },
+        "get": {
+          "error_lang": "Houve um erro ao tentar carregar o idioma",
+          "error_camp": "Ocorreu um erro ao tentar carregar a campanha"
+        }
+      },
+      "update": {
+        "success": "Atualizado com sucesso",
+        "error": "Houve um erro ao atualizar a campanha",
+        "enable": "Campanha ativada corretamente",
+        "disable": "Campanha desativada com sucesso",
+        "archive": "Campanha arquivada corretamente",
+        "warning": "Você não pode desativar esta campanha porque possui formulários associados"
+      },
+      "get": {
+        "error_lang": "Houve um erro ao carregar idioma",
+        "error_camp": "Houve um erro ao carregar a campanha",
+        "enable": "Campanha ativada",
+        "disable": "Campanha desativada",
+        "archive": "Campanha arquivada"
+      }
+    },
+    "archive": {
+      "option": "Arquivar esta campanha",
+      "title": "Tem certeza de arquivar esta campanha?",
+      "description": "A campanha será arquivada, mas você poderá restaura-la a qualquer momento",
+      "accept": "Arquivo",
+      "cancel": "Cancelar",
+      "success": "A campanha foi arquivada com sucesso",
+      "error": "Ocorreu um erro ao arquivar a campanha"
+    },
+    "create": {
+      "title": "Novo",
+      "header": "Preencha os campos abaixo:",
+      "name": {
+        "text": "Nome",
+        "info": "Nome de identificação interna"
+      },
+      "public_name": {
+        "text": "Nome público",
+        "info": "Nome público que será mostrado nos formulários"
+      },
+      "button": "Criar",
+      "success": "Campanha criada corretamente",
+      "error": "Ocorreu um erro ao criar a campanha"
+    },
+    "details": {
+      "title": "Detalhes",
+      "timeline": {
+        "title": "Linha do tempo",
+        "day": "Dia",
+        "today": "Hoy",
+        "month": "Mês",
+        "year": "Ano",
+        "all": "Todos",
+        "since": "De:",
+        "until": "Até:",
+        "menu": {
+          "select": "Selecione",
+          "cancel": "Cancelar"
+        }
+      },
+      "performance": "Atuação",
+      "performanceForm": "Desempenho de formulários",
+      "forms": {
+        "title": "Formulários",
+        "name": "Nome",
+        "results": "Resultados",
+        "amount": "Valores",
+        "empty": "Não há formulários relacionados a esta campanha"
+      },
+      "last_conversions": {
+        "title": "Últimas conversões",
+        "name": "Nome",
+        "email": "Email",
+        "date": "Data",
+        "conversion": "Conversão",
+        "amount": "Valores",
+        "subscription": "Recorrência",
+        "donation": "Doação",
+        "empty": "Não há doações feitas a esta campanha neste intervalo de datas",
+        "file_name_export": "Últimas conversões da campanha '{campaign}'",
+        "file_name_export_abandoned": "Doadores abandonado da campanha '{campaign}'",
+        "anonymous": "Anônimos",
+        "abandoned": "Doadores abandonado"
+      }
+    },
+    "delete": {
+      "option": "Excluir esta campanha",
+      "title": "Tem a certeza de que pretende eliminar esta campanha?",
+      "description": "A campanha vai ser excluída, esta ação não pode ser revertida",
+      "accept": "Remover",
+      "cancel": "Cancelar",
+      "success": "A campanha foi eliminada com sucesso",
+      "error": "Ocorreu um erro ao eliminar a campanha"
+    },
+    "dpo": {
+      "campaign_code": "Campaign Code",
+      "transactions": "Transactions",
+      "transactions_value": "Transactions value",
+      "subscriptions": "Suscripciones",
+      "subscriptions_value": "Subscriptions value",
+      "charges": "Charges",
+      "charges_value": "Charges value",
+      "channel": "Channel",
+      "appeal": "Appeal",
+      "campaign_code_tooltip": "Você pode usar caracteres especiais, letras maiúsculas e minúsculas, números.",
+      "menu": {
+        "new": "Adicionar novo",
+        "clone": "Clone",
+        "delete": "Remover"
+      },
+      "messages": {
+        "error_get_fcm": "Falha ao obter códigos de campanha.",
+        "error_create_fcm": "Erro ao atualizar os códigos da campanha.",
+        "success_create_fcm": "Códigos de campanha atualizados corretamente.",
+        "error_get_fcm_table": "Falha ao obter o mapa da campanha de captação de recursos.",
+        "campaign_code_tooltip": "Você pode usar caracteres especiais, maiúsculas para minúsculas, números",
+        "dpo_field_tooltip": "Campo DPO",
+        "campaign_code_tooltip_main": "Para usar você deve adicionar a variável 'cc' ao seu URL da seguinte forma: www.example.com/?cc=123"
+      },
+      "form": {
+        "add_new_field": "Adicione outro campo",
+        "save": "Salvar",
+        "field_name": "Nome do campo",
+        "field_type": "Tipo de campo",
+        "field_value": "Valor do campo",
+        "types": {
+          "text": "Texto",
+          "number": "Number",
+          "phone": "Telefone"
+        }
+      }
+    }
+  },
+  "members": {
+    "facebook": {
+      "title": "Dados de leads do Facebook",
+      "leads_id": "ID do lead",
+      "ad_id": "ID do anúncio",
+      "ad_name": "Nome do anúncio",
+      "adset_id": "ID do conjunto de anúncios",
+      "campaign_id": "ID da campanha",
+      "form_id": "ID do formulário",
+      "platform": "Plataforma",
+      "adset_name": "Nome do conjunto de anúncios",
+      "campaign_name": "Campanha",
+      "disclaimers": "Isenções de responsabilidade"
+    },
+    "delete": {
+      "title": "Remover pessoa?",
+      "allow": "Sim",
+      "deny": "Não",
+      "text1": "O pessoa será removido, esta ação não pode ser revertida",
+      "text2": "Remover pessoa"
+    },
+    "delete_success": "Lead eliminado com sucesso",
+    "delete_error": "Erro ao excluir lead",
+    "title": "Pessoas",
+    "member_id": "ID de pessoa",
+    "event_id": "ID de evento",
+    "dashboard": {
+      "total_amount": "Valor total",
+      "search": "Procurar",
+      "import": "Importar",
+      "export": "Exportar",
+      "add": "Adicionar",
+      "supported_name": "Nome suportado",
+      "member_type": "Tipo",
+      "donation": "Doações",
+      "transaction": "transações",
+      "subscription": "Assinatura",
+      "phone": "Telefone",
+      "country": "País",
+      "last_event": "Último evento",
+      "status": "Status",
+      "open": "Abrir",
+      "edit": "Editar",
+      "recurrent": "Recorrente",
+      "donor": "Benfeitor",
+      "footer": "Clientes mostrados:",
+      "empty": "Nenhum pessoa registrado",
+      "empty_search": "Nenhum pessoa corresponde à pesquisa",
+      "get_error": "Houve um erro na obtenção de pessoas"
+    },
+    "details": {
+      "created_at": "Criado em:",
+      "average": "Média",
+      "transacted": "Transacionado",
+      "address": "Endereço",
+      "language": "Idioma",
+      "company_name": "Nome da instituição",
+      "dni": "CNPJ",
+      "custom_info": "Informações personalizadas",
+      "tags": "Tags",
+      "deduction_data": "Dados de dedução",
+      "empty": "Não tem nada aqui",
+      "get_error": "Houve um erro na obtenção do pessoa",
+      "contact_origin": "Origem do contato",
+      "tabs": {
+        "transactions": "Transações",
+        "suscriptions": "Recorrências",
+        "events": "Eventos",
+        "emails": "E-mails",
+        "interactions": "Interações"
+      },
+      "enable": "Ativar",
+      "disable": "Desativar",
+      "transactions": {
+        "campaign": "Campanha",
+        "gateway": "Gateway de pagamento",
+        "complete": "Completa",
+        "load_more": "Carregar mais",
+        "empty": "Esta pessoa não realizou transações"
+      },
+      "subscriptions": {
+        "next": "Próxima sequência",
+        "campaign": "Campanha",
+        "amount": "Valores",
+        "edit": {
+          "title": "Edição de subscrição",
+          "success": "A subscrição foi actualizada com êxito.",
+          "error": "Houve um erro ao atualizar a assinatura."
+        },
+        "empty": "Esta pessoa não tem recorrência",
+        "frequency": {
+          "title": "Freqüência",
+          "weekly": "Semanal",
+          "monthly": "Mensal",
+          "Yearly": "Anual"
+        },
+        "status": {
+          "title": "Status",
+          "active": "Ativo",
+          "inactive": "Inativo"
+        }
+      },
+      "events": {
+        "empty": "Esta pessoa não possui eventos",
+        "donation": "Doação",
+        "user": "Usuário",
+        "exportation": "Exportação"
+      },
+      "interactions": {
+        "title": "Interação",
+        "counter": "{counter} interações",
+        "general": "Geral",
+        "email": "E-mail",
+        "phone": "Telefone",
+        "meeting": "Reunião",
+        "new": {
+          "title": "Novo",
+          "toolbar": "Nova interação"
+        },
+        "assignee": "Responsável",
+        "created_at": "Criado em",
+        "type": "Tipo",
+        "note": "Nota",
+        "open": "Abrir",
+        "empty": "Esta pessoa não tem interações",
+        "edit": {
+          "title": "Editar",
+          "toolbar": "Editar interação"
+        },
+        "delete": {
+          "title": "Remover",
+          "success": "A interação foi excluída com sucesso",
+          "error": "Ocorreu um erro ao atualizar a interação",
+          "dialog": {
+            "title": "Você tem certeza de eliminar essa interação?",
+            "description": "Esta ação não pode ser revertida",
+            "cancel_button": "Cancelar"
+          }
+        },
+        "create_success": "Interação criada com sucesso",
+        "create_error": "Ocorreu um erro ao criar a interação",
+        "update_success": "A interação foi atualizada com sucesso",
+        "update_error": "Ocorreu um erro ao atualizar a interação"
+      }
+    },
+    "edit": {
+      "title": "Editar Perfil",
+      "payment_info": "Informação de pagamento",
+      "personal_info": {
+        "title": "Informações pessoais",
+        "treatment": {
+          "title": "Tratamento",
+          "mrs": "Sra.",
+          "mr": "Sr."
+        },
+        "first_name": "Nome",
+        "last_name": "Sobrenome",
+        "email": "E-mail",
+        "phone": "Telefone",
+        "gender": {
+          "title": "Gênero",
+          "f": "Feminino",
+          "m": "Masculino"
+        },
+        "language": "Idioma"
+      },
+      "address": {
+        "title": "Endereço",
+        "address1": "Endereço Linha 1",
+        "address2": "Endereço Linha 2",
+        "zip_code": "CEP",
+        "country": "País",
+        "city": "Cidade",
+        "state": "Estado",
+        "time_zone": "Fuso horário"
+      },
+      "company": {
+        "title": "Empresa",
+        "name": "Nome da empresa",
+        "dni": "CNPJ"
+      },
+      "custom_info": {
+        "title": "Informações personalizadas"
+      },
+      "tags": "Tags",
+      "update_success": "pessoa atualizada corretamente",
+      "update_error": "Ocorreu um erro ao atualizar o pessoa"
+    },
+    "create": {
+      "title": "Criar pessoa",
+      "success": "O pessoa foi criado com sucesso",
+      "error": "Ocorreu um erro ao criar o pessoa",
+      "error_email_taken": "O e-mail já é tomado por outro usuário"
+    }
+  },
+  "tags": {
+    "error_get": "Houve um erro ao obter as tags",
+    "member_no_tags": "Esta pessoa não tem marcas."
+  },
+  "transactions": {
+    "manual": {
+      "transaction_state": "Estado da transação",
+      "no_gateway": "Nenhum gateway de pagamento"
+    },
+    "dashboard": {
+      "search": "Procurar",
+      "from": "De",
+      "to": "Até",
+      "timestamp": "Data",
+      "donor": "Benfeitor",
+      "amount": "Valor",
+      "status": "Status",
+      "campaign": "Campanha",
+      "export": "Exportar",
+      "information_donor": "Informações do benfeitor",
+      "tax_relief": "Dedução",
+      "member": "pessoa",
+      "phone": "Telefone",
+      "email": "E-mail",
+      "details": "Detalhes da Transação",
+      "details_subs": "Detalhes do cadastro",
+      "donor_type": "Tipo de Benfeitor",
+      "date": "Data",
+      "gateway": "Gateway",
+      "completed": "COMPLETADO",
+      "failed": "FALHA",
+      "refunded": "Reembolsado",
+      "total_amount": "Valor total",
+      "empty": "Nenhuma transação foi feita",
+      "empty_search": "Não há transações que correspondam à pesquisa",
+      "refund": "Reembolso",
+      "get_error": "Ocorreu um erro ao obter as transacções.",
+      "footer": "Transacções mostrados:",
+      "update_status": "Atualizar status"
+    },
+    "metadata": {
+      "text": "Metadados",
+      "ip": "IP do endereço",
+      "country_and_city": "País e cidade",
+      "os": "SO",
+      "family_os": "SO da família",
+      "browser": "Navegador",
+      "browser_version": "Versão do navegador",
+      "country_code": "Código do país",
+      "location": "Localização",
+      "latitude": "Latitude",
+      "longitude": "longitude",
+      "internet_service_prodivider": "provedor de internet",
+      "get_error": "Houve um erro na obtenção de metadados",
+      "see_tracking": "Ver rastreamento"
+    },
+    "details": {
+      "showJSON": "Mostrar resposta do processador de pagamento",
+      "hideJSON": "Ocultar resposta do processador de pagamento",
+      "gatewayId": "ID do gateway de pagamento",
+      "gateway_details": "Detalhes da {gateway}",
+      "subscriptionId": "ID de subscrição",
+      "customerId": "ID do cliente",
+      "paymentMethodId": "ID do método de pagamento",
+      "paymentMethod": "Método de pagamento",
+      "gateway": "Gateway de pagamento",
+      "creditCard": "Cartão de crédito",
+      "debitCard": "Cartão de débito",
+      "bank_account": "Conta bancária",
+      "ticket": "Boleto",
+      "cash": "Dinheiro",
+      "form": "Forma",
+      "sourceDetails": "Detalhes da fonte",
+      "urlsOrigin": "Urls usados",
+      "pageURL": "URL da página",
+      "referrer": "Requerida",
+      "device": "Dispositivo",
+      "deviceOS": "SO Dispositivo",
+      "response": "Resposta",
+      "dpo_response": "Resposta DPO",
+      "dpo_requests": "Petições para DPO",
+      "get_error": "Ocorreu um erro ao obter a transacção.",
+      "total_donations": "Total de doações",
+      "donation_paid": "Doação paga",
+      "interval": "Intervalo",
+      "first_donation": "Primeira doação",
+      "last_donation": "Última doação",
+      "next_donation": "Próxima doação",
+      "cancelled": "Cancelado",
+      "efficiency": "{success} de {attempts}",
+      "dont_exist": "Não fornecido",
+      "is_local": "Criado no painel"
+    },
+    "status": {
+      "succeeded": "Conseguiu",
+      "pending": "Pendente",
+      "failed": "Falhou",
+      "refunded": "Reembolsado",
+      "refused": "Recusou",
+      "text": "Status da transação"
+    },
+    "refund": {
+      "title": "Reembolsar",
+      "success": "A cobrança foi reembolsada corretamente.",
+      "error": "Ocorreu um erro ao desempagamento da cobrança.",
+      "details_text": "Detalhes do reembolso",
+      "reasons": {
+        "select": "Selecione um motivo",
+        "by_member": "Pedido por pessoa",
+        "duplicate": "Duplicar",
+        "fraudulent": "Fraudulentas",
+        "other": "Outros"
+      },
+      "details": "Mais detalhes sobre este reembolso",
+      "refunded": "{amount} reembolsado",
+      "modal": {
+        "title": "Reembolsar",
+        "info": "Os reembolsos levam 5-10 dias para aparecer na declaração de um pessoa.",
+        "accept": "Reembolsar",
+        "cancel": "Cancelar"
+      }
+    },
+    "new": {
+      "text": "Nova transação",
+      "success": "A transação manual foi bem-sucedida.",
+      "error": "Ocorreu um erro ao transação manualmente: {message}",
+      "save": "Criar Doação"
+    },
+    "change_status": "Mudança de status",
+    "change_status_success": "A mudança de status foi bem-sucedida.",
+    "change_status_error": "Ocorreu um erro ao atualizar o status da doação.",
+    "monthly_charge": "Cobrança mensal"
+  },
+  "subscriptions": {
+    "status": {
+      "active": "Ativa",
+      "failed": "Falhou",
+      "trialing": "Teste",
+      "incomplete": "Incompleta",
+      "past_due": "Vencido",
+      "canceled": "Cancelada",
+      "unpaid": "Não remunerado"
+    },
+    "dashboard": {
+      "footer": "Assinatura mostradas:"
+    },
+    "cancel": {
+      "title": "Cancelar assinatura",
+      "success": "A assinatura de {name} foi cancelada",
+      "success_end": "A subscrição de {name} será cancelada no final do período atual",
+      "error": "Houve um erro ao cancelar a assinatura.",
+      "modal": {
+        "accept": "Cancelar assinatura",
+        "cancel": "Não cancele",
+        "immediately": "Cancele imediatamente",
+        "end": "Cancele no final do período atual em {date}"
+      }
+    },
+    "edit": {
+      "actual_recurring": "Recorrente real",
+      "new_recurring": "Novo recorrente",
+      "info": "Cobrar pagamentos automaticamente a partir dos dados do cartão de crédito armazenados no Gateway de pagamento",
+      "title": "Atualizar assinatura",
+      "success": "A assinatura foi atualizada com sucesso.",
+      "error": "Ocorreu um erro ao atualizar a assinatura.",
+      "day_month_collection": "Dia do mês da coleta"
+    },
+    "new": {
+      "text": "Nova subscrição",
+      "success": "A subscrição manual foi bem-sucedida.",
+      "error": "Ocorreu um erro ao doar manualmente: {message}",
+      "save": "Criar assinatura"
+    },
+    "next_payment_date": "Data da próxima coleta",
+    "payment_date": "Data da Coleta"
+  },
+  "events": {
+    "details": "Detalhes do evento",
+    "one_time": "Um tempo",
+    "empty_search": "Nenhum evento corresponde à pesquisa",
+    "source": {
+      "title": "Fonte",
+      "form": "Forma",
+      "webhook": "Webhook",
+      "charge_webhook": "Charge Webhook",
+      "panel": "Afrus Panel",
+      "charge_webhook_description": "Este evento foi gerado pela cobrança de uma subscrição",
+      "webhook_description": "Este evento foi gerado por uma interação de webhook",
+      "panel_description": "Este evento foi gerado por uma interação no painel AFRUS",
+      "form_description": "Este evento foi gerado a partir de uma interação de pessoa"
+    },
+    "filter": "Filtro",
+    "donation": "Doação",
+    "donation_webhook": "Doação por Webhook",
+    "donation_manual": "Doação manual",
+    "donation_imported": "Doação importada",
+    "donation_recurrent": "Doação recorrente",
+    "donation_recurrent_manual": "Doação recorrente manual",
+    "donation_recurrent_webhook": "Doação recorrente por Webhook",
+    "donation_recurrent_updated": "Doação recorrente atualizada",
+    "donation_recurrent_updated_webhook": "Doação recorrente atualizada por Webhook",
+    "donation_start": "Doação iniciada",
+    "register_start": "Registro iniciado",
+    "register": "Registo",
+    "lead": "Lead",
+    "lead_webhook": "Lead por Webhook",
+    "donation_refund": "Doação reembolsada",
+    "donation_pending": "Doação pendente",
+    "donation_pending_webhook": "Doação pendente por Webhook",
+    "donation_refund_webhook": "Doação reembolsada por Webhook",
+    "donation_recurrent_canceled": "Doação recorrente cancelada",
+    "donation_recurrent_canceled_at_the_end": "Doação recorrente cancelada no final do período.",
+    "donation_recurrent_canceled_webhook": "Doação recorrente cancelada por Webhook",
+    "donation_intent": "Tentativa de doação",
+    "donation_failed": "Doação Failedida",
+    "donation_webhook_failed": "Doação falhou por Webhook",
+    "charge_recurrent_webhook": "Cobrança recorrente por Webhook",
+    "new_names": {
+      "view": {
+        "form_view": "Visualização de formulário"
+      },
+      "lead": {
+        "contact_identificated": "Contato Identificado",
+        "contact_updated": "Contato atualizado",
+        "lead_imported": "Lead importado"
+      },
+      "donation": {
+        "start": "Doação iniciada",
+        "add_payment_info": "Adicionar informações de pagamento",
+        "pending": "Doação pendente",
+        "completed": "Doação concluída",
+        "failed": "Doação Failedida",
+        "failed_webhook": "Doação Failedida por webhook",
+        "refund": "Doação reembolsada",
+        "refund_pending": "Reembolso de Doação Pendente",
+        "intent": "Tentativa de doação",
+        "imported": "Doação importada"
+      },
+      "subscription": {
+        "created": "Doação recorrente criada",
+        "changed": "Doação recorrente atualizada",
+        "canceled": "Doação recorrente cancelada"
+      },
+      "sign": "Assinatura",
+      "email": {
+        "sent": "Email enviado"
+      },
+      "certificate": {
+        "send": "Certificado enviado",
+        "annulled": "Certificado anulado"
+      }
+    },
+    "text_descriptions": {
+      "view_form_view": "O pessoa visitou uma página da web.",
+      "lead_contact_identificated": "O novo pessoa foi criado na plataforma AFRUS.",
+      "lead_contact_updated": "As informações de contato deste pessoa foram atualizadas.",
+      "donation_start": "O pessoa fornece informações sobre a quantia e indica a frequência de doação.",
+      "donation_add_payment_info": "O pessoa escolheu um método de pagamento e adicionou informações.",
+      "donation_pending": "A doação ainda não foi concluída. Veja o status abaixo.",
+      "donation_completed": "Uma doação foi concluída, para que você possa conferir todos os detalhes abaixo.",
+      "donation_imported": "Doação importada manualmente.",
+      "donation_failed": "Infelizmente, tivemos um problema para concluir esta doação. Verifique todos os detalhes abaixo.",
+      "donation_refund": "A doação foi devolvida ao pessoa.",
+      "donation_refund_pending": "O reembolso da doação ainda não foi concluído. Veja o status abaixo.",
+      "donation_intent": "",
+      "subscription_created": "Uma nova assinatura foi criada para este pessoa.",
+      "subscription_changed": "A assinatura foi atualizada, verifique os detalhes abaixo.",
+      "subscription_canceled": "Infelizmente a assinatura foi cancelada.",
+      "sign": "A pessoa fez uma assinatura.",
+      "email_sent": "Um e-mail foi enviado para o Lead.",
+      "certificate_send": "Um certificado de doação foi enviado.",
+      "certificate_annulled": "Um certificado de doação foi anulado.",
+      "lead_imported": "Lead importado manualmente"
+    }
+  },
+  "reports": {
+    "title": "Relatórios de problemas",
+    "params": {
+      "id": "ID",
+      "subject": "Caso",
+      "description": "Descrição",
+      "section": "Seção",
+      "sectionItems": {
+        "1": "Dashboard",
+        "2": "Campanhas",
+        "3": "Transações",
+        "4": "Assinaturas",
+        "5": "Formulários de doação",
+        "6": "Formulários de Lead",
+        "7": "Membros",
+        "8": "Filtros",
+        "9": "Débito recorrente bancário",
+        "10": "Transferências",
+        "11": "Configurações de Perfil",
+        "12": "Configurações da Organização",
+        "13": "Outro"
+      },
+      "createdAt": "Criado em",
+      "priority": "Prioridade",
+      "priorityItems": {
+        "1": "Baixa",
+        "2": "Média",
+        "3": "Alta",
+        "4": "Urgente"
+      },
+      "status": "Status",
+      "statusItems": {
+        "2": "Aberto",
+        "3": "Pendente",
+        "4": "Resolvido",
+        "5": "Fechados"
+      },
+      "attachments": "Arquivos adjuntos"
+    },
+    "message": {
+      "success": {
+        "create": "Relatório criado com sucesso",
+        "update": "Relatório atualizado com sucesso",
+        "addNote": "mensagem enviada com sucesso"
+      },
+      "errors": {
+        "getAll": "Ocorreu um erro ao obter os relatórios",
+        "getOne": "Ocorreu um erro ao abrir o relatório",
+        "create": "Ocorreu um erro ao criar o relatório",
+        "update": "Ocorreu um erro ao editar o relatório",
+        "addNote": "Ocorreu um erro ao enviar a mensagem",
+        "fileSize": "O tamanho do arquivo não pode exceder 2.5 MB"
+      }
+    },
+    "dashboard": {
+      "rowsPerPage": "Relatórios mostrados:",
+      "noData": "Nenhum relatório registrado",
+      "noDataSearch": "Nenhum relatório corresponde à pesquisa"
+    },
+    "create": {
+      "title": "Criar relatório",
+      "submitButton": "Enviar",
+      "attachments": {
+        "title": "Enviar imagens",
+        "subtitle": "Máximo de 6 imagens"
+      }
+    },
+    "update": {
+      "title": "Editar relatório",
+      "submitButton": "Salve "
+    },
+    "details": {
+      "title": "Detalhes do relatório",
+      "reply": "Resposta"
+    }
+  },
+  "filters": {
+    "fields": {
+      "input": "Escreva aqui"
+    },
+    "result": {
+      "subscriptions": "Suscripciones",
+      "donations": "Donaciones",
+      "transactions": "Transacciones",
+      "donation_intent": "Intentos de donacion",
+      "success": "bem sucedido",
+      "faileds": "Fallidas"
+    },
+    "document": {
+      "passport": "Passaporte",
+      "driver": "Carteira de motorista",
+      "social_security": "Identificação da Segurança Social",
+      "national_document": "Documento de identificação nacional",
+      "national_document_foreign": "Documento de identificação nacional (estrangeiro)",
+      "other": "Outros"
+    },
+    "actual_state": {
+      "abandoned": "Abandonado",
+      "add_payment": "Adicionar pagamento",
+      "donor": "Benfeitor",
+      "donor_failed": "Benfeitor falhou"
+    },
+    "results": "Resultados de filtro",
+    "messages": {
+      "length_cero": "Lo sentimos, su busqueda no ha dado resultados",
+      "error": "Ocorreu um erro ao obter as informações",
+      "create_tag_error": "Ocorreu um erro ao criar a tag",
+      "success_tag_add": "Pessoas marcados corretamente",
+      "error_tag_add": "Ocorreu um erro ao atribuir a tag",
+      "success_save_filter": "Filtro armazenado corretamente",
+      "error_save_filter": "Ocorreu um erro ao armazenar o filtro",
+      "error_get_filters": "Ocorreu um erro ao obter filtros armazenados"
+    },
+    "buttons": {
+      "back": "De volta",
+      "preview": "pré-visualização",
+      "clear": "Reiniciar",
+      "save": "Salvar filtro",
+      "done": "Feito",
+      "tag": "Tag",
+      "close": "Fechar",
+      "create_tag": "Criar etiqueta",
+      "existent_tag": "Selecionar tag",
+      "delete": "Limpar filtros",
+      "search": "Pesquisar"
+    },
+    "input": {
+      "name": "Nome",
+      "share": "Compartilhar com outros usuários",
+      "share_yes": "Sim",
+      "share_no": "Não",
+      "stored_filters": "Filtros armazenados"
+    },
+    "titles": {
+      "by": "Filtrado por",
+      "save": "Digite o nome para o filtro",
+      "tag": "Digite o nome da tag",
+      "tag2": "Selecione a tag",
+      "filter": "Filtros por segmentos",
+      "type_search": "Tipo de busqueda",
+      "select_filter": "Elegir segmentos predeterminados",
+      "filters_saved": "Filtros almacenados"
+    },
+    "headers": {
+      "condition": "Condição",
+      "filter": "Filtro",
+      "operator": "Operador",
+      "first_value": "Primeiro Valor",
+      "last_value": "Último valor",
+      "action": "Açao"
+    },
+    "list": {
+      "status": "Status da transação",
+      "payment_method": "Metodo de pago",
+      "campaign_name": "Nome da Campanha",
+      "first_name": "Nome",
+      "gender": "Gênero",
+      "city": "Cidade",
+      "time_zone": "Fuso horário",
+      "donation_type": "Tipo de doação",
+      "original_currency": "Moeda original",
+      "form_name": "Formulário",
+      "last_name": "Sobrenome",
+      "language": "Idioma",
+      "state": "Estado",
+      "company_name": "Nome da instituição",
+      "created_date": "Criado",
+      "gateway": "Gateway de pagamento",
+      "utm_campaign": "utm_campaign",
+      "utm_source": "utm_source",
+      "utm_medium": "utm_medium",
+      "utm_content": "utm_content",
+      "utm_term": "utm_term",
+      "email": "E-mail",
+      "address1": "Endereço Linha 1",
+      "country": "País",
+      "tags": "Tags",
+      "amount": "Valor de doação",
+      "converted_currency": "Moeda convertida",
+      "treatment": "Tratamento",
+      "phone": "Telefone",
+      "address2": "Endereço Linha 2",
+      "zip_code": "CEP",
+      "custom_field": "Campo personalizado",
+      "member_type": "Tipo de pessoa",
+      "events": "Eventos",
+      "actual_state": "Estatuto de pessoa",
+      "interactions": "Interações",
+      "fb_leads": "Facebook leads",
+      "document": "Número de documento"
+    },
+    "operators": {
+      "greater_than": "Melhor que",
+      "great_or_equal": "Grande ou igual",
+      "smaller_than": "Menor que",
+      "less_or_equal": "Menor ou igual",
+      "equal": "Equal",
+      "different": "Diferente",
+      "like": "Parecido",
+      "not_like": "Não parecido",
+      "between": "Incluido",
+      "not_between": "Não incluido",
+      "in": "Dentro",
+      "not_in": "Fora"
+    }
+  },
+  "unomi": {
+    "error": "Houve um erro na comunicação com a Unomi."
+  },
+  "recurring_debit": {
+    "titles": {
+      "generate_files": "Gerar arquivos",
+      "upload_files": "Carregar arquivos",
+      "details_file": "Detalhe do arquivo"
+    },
+    "messages": {
+      "only_plain_files": "Somente arquivos de texto simples válidos",
+      "error_get_file": "Ocorreu um erro ao obter os detalhes do arquivo",
+      "error_get_files": "Ocorreu um erro ao obter a lista de arquivos.",
+      "error_banks": "Ocorreu um erro ao obter a lista de bancos",
+      "error_file_formats": "Ocorreu um erro ao obter as listagens de formato",
+      "error_generate_file": "Ocorreu um erro ao gerar o arquivo",
+      "error_upload_file": "Ocorreu um erro ao carregar o arquivo",
+      "error_subscription_statuses": "Ocorreu um erro ao obter o status da assinatura",
+      "success_generate": "Arquivo gerado com sucesso, o download começará em breve.",
+      "success_upload": "Arquivo enviado com sucesso"
+    },
+    "main": {
+      "table": {
+        "date": "Data",
+        "class": "classe",
+        "file_type": "Tipo de arquivo",
+        "response": "Resposta",
+        "filters": "Filtros",
+        "detail": "Detalhe",
+        "show_details": "Ver detalhes"
+      },
+      "upload": "Carregar",
+      "generate": "Gerar",
+      "add_files": "Adicionar arquivos",
+      "add_more": "Adicione mais arquivos",
+      "added_files": "Arquivos adicionados"
+    },
+    "generate": {
+      "options": "Opções",
+      "include_duplicates": "Incluir duplicatas",
+      "include_already_sent": "Inclui já enviado",
+      "application_date": "Data da aplicação",
+      "file_format": "Formato de arquivo",
+      "subscription_status": "Status da assinatura",
+      "prenofitication": "Pré-notificação",
+      "charges": "Encargos",
+      "sequence": "Seqüência",
+      "sequence_info": "Valor de referência que o banco usa para diferenciar e categorizar os arquivos, você deve selecionar um diferente para cada arquivo gerado.",
+      "name": "Nome",
+      "statuses": {
+        "prenotify": "Para pré-notificar",
+        "error_funds": "Falta de fundos",
+        "charge_ok": "Carregar OK",
+        "inactive": "Inativo",
+        "error_data": "Erro de dados"
+      }
+    },
+    "details": {
+      "table": {
+        "transaction_date": "Data da transação",
+        "reference": "Referência",
+        "fullname": "Nomes completos",
+        "bank": "Banco",
+        "account_number": "Nº da conta",
+        "amount": "Valor",
+        "day_type": "Dia / Pagamento Recorrente"
+      }
+    }
+  },
+  "downloads": {
+    "table": {
+      "exported_file": "Arquivo exportado",
+      "date": "Data",
+      "download": "Baixar"
+    },
+    "main": {
+      "important": "IMPORTANTE",
+      "important_message": "A partir da data de geração, esses arquivos serão armazenados por no máximo 1 semana. Após esse período, a plataforma os eliminará automaticamente."
+    },
+    "messages": {
+      "error_get_files": "Ocorreu um erro ao obter a lista de arquivos.",
+      "error_create": "Ocorreu um erro ao criar a campanha",
+      "success_downloads": "Seu arquivo está pronto para ser baixado.",
+      "export_in_progress": "Uma exportação já está em andamento."
+    },
+    "dialog1": {
+      "title": "Que tipo de arquivo você deseja exportar?",
+      "file_type": "Tipo de arquivo",
+      "button_export": "Exportar",
+      "button_exit": "Sair"
+    },
+    "dialog2": {
+      "title": "Seu arquivo está sendo gerado.",
+      "description": "Depois de concluído, você será notificado para fazer o download na seção de download.",
+      "button_to_downloads": "Ir para downloads"
+    }
+  },
+  "imports": {
+    "title_transactions": "Transações de importação",
+    "title_leads": "Leads Importar",
+    "here_drag_files": "Aqui você pode arrastar seus arquivos",
+    "automatic_upload": "Estes serão carregados automaticamente",
+    "drop_files_here": "Solte seus arquivos aqui",
+    "add_more_files": "Adicione mais arquivos",
+    "files_added": "{files} adições",
+    "uploading": "Fazendo upload...",
+    "file_size_uploaded": "{weight} carregados",
+    "success_upload": "Seus arquivos foram enviados",
+    "data_matching": "Concordância de dados",
+    "select_currency": "Seleção de moeda",
+    "status_transaction": "Status da transação",
+    "data_file_imported": "Arquivos importados de dados",
+    "afrus_fields": "Afrus Fields",
+    "make_data_matching": "Combine as colunas do arquivo importado com os campos Afrus necessários para poder importar o arquivo",
+    "field_email": "Campo email",
+    "name_and_lastname": "Nome e sobrenome",
+    "fullname": "Nombre completo",
+    "payment_method": "Pagamento",
+    "amount": "Valor",
+    "payment_type": "Tipo de pagamento",
+    "sending_files": "Enviando {files} arquivos",
+    "error_sending": "Ocorreu um erro ao fazer o upload dos arquivos",
+    "failed_data": "Dados com falha",
+    "approved_data": "Dados aprovados",
+    "see_reject_data": "Ver dados rejeitados",
+    "error_get": "Ocorreu um erro ao obter importações",
+    "import_by": "Importar por",
+    "help": "Clique no campo que você deseja modificar",
+    "required_files_donation": "Os campos Quantidade, Nome do email são obrigatórios.",
+    "required_files_lead": "Os campos Nome do email são obrigatórios.",
+    "question_import": "O que você deseja importar?"
+  },
+  "facebook_leads": {
+    "beta": "Essa funcionalidade está em desenvolvimento.",
+    "add": "Adicionar",
+    "page_id": "ID da página: ",
+    "form_id": "ID do formulário: ",
+    "page": "Página",
+    "form": "Forma",
+    "tracking_forms": "Formulários de acompanhamento",
+    "info": "Bem-vindo à integração com os líderes do Facebook. Para continuar, faça login na conta a ser usada, serão solicitadas algumas permissões para que possamos acessar e gerenciar seus formulários do Facebook e receber os leads gerados.",
+    "success": {
+      "store_form": "Adicionado formulário para rastreamento de leads."
+    },
+    "errors": {
+      "get_forms": "Ocorreu um erro ao obter os formulários rastreados.",
+      "store_form": "Ocorreu um erro ao afiliar o formulário.",
+      "form_already_exist": "O formulário já foi adicionado para acompanhamento.",
+      "get_fb_pages": "Ocorreu um erro ao obter suas páginas do Facebook.",
+      "subscribe_app": "Ocorreu um erro ao inscrever a página em nosso aplicativo.",
+      "get_fb_forms": "Ocorreu um erro ao obter seus formulários do Facebook."
+    }
+  },
+  "crowdfunding": {
+    "requests": {
+      "text": "Petições",
+      "form": "Formulário de solicitação",
+      "required_form": "Você precisa ter um formulário criado para processar solicitações",
+      "details": "Detalhes da solicitação",
+      "fields": {
+        "form_title": "Título do formulário",
+        "form_description": "Descrição para o formulário"
+      }
+    },
+    "donations": {
+      "text": "Doações",
+      "form": "Formulários de Doação"
+    },
+    "projects": {
+      "details": "Detalhes do projeto",
+      "edit": "Editar projeto",
+      "text": "Projetos",
+      "singular": "Projeto",
+      "messages": {
+        "errors": {
+          "get_all": "Erro ao obter projetos",
+          "get_one": "Erro ao obter o projeto",
+          "edit": "Erro ao editar o projeto",
+          "accept": "Erro ao aceitar o projeto",
+          "reject": "Erro ao rejeitar o projeto"
+        }
+      },
+      "fields": {
+        "amount_goal": "Montante alvo",
+        "amount_raised": "Montante levantado",
+        "name": "Nome",
+        "description": "Descrição"
+      }
+    },
+    "creators": {
+      "text": "Criadores",
+      "details": "Detalhes do criador",
+      "edit": "Editar criador",
+      "messages": {
+        "errors": {
+          "get_all": "Erro ao obter Criadores",
+          "get_one": "Erro ao obter o criador",
+          "update_creator": "Falha ao atualizar o criador"
+        },
+        "success": {
+          "update_creator": "Criador atualizado com sucesso"
+        }
+      },
+      "fields": {
+        "number_projects": "N° de projetos"
+      }
+    },
+    "petitions": {
+      "approve": {
+        "success": "Pedido aprovado com sucesso.",
+        "error": "Ocorreu um erro ao aprovar a solicitação."
+      },
+      "remove": {
+        "success": "Pedido rejeitado com sucesso.",
+        "error": "Ocorreu um erro ao rejeitar a solicitação."
+      }
+    },
+    "api": {
+      "key": "Key",
+      "value": "Value",
+      "body": "Body",
+      "params": "Params",
+      "description": "Description",
+      "response": "Response",
+      "method": "Method",
+      "url": "URL",
+      "url_details": "URL details"
+    }
+  },
+  "petitions": {
+    "title": "Petições",
+    "requests": {
+      "title": "Petições",
+      "summary": "Sumário",
+      "donations": "Doações por petição",
+      "text": "Solicitações",
+      "form": "Formulário de solicitação",
+      "details": "Detalhes da solicitação",
+      "show": "Ver solicitação",
+      "fields": {
+        "form_title": "Título do formulário",
+        "form_description": "Descrição para o formulário"
+      }
+    },
+    "emails": {
+      "button": {
+        "welcome_email": "E-mail de Boas-vindas",
+        "accept_email": "E-mail de Aceitação",
+        "signers_email": "E-mail do Signatário",
+        "forgot_password": "Recuperar senha"
+      }
+    },
+    "signature": {
+      "text": "Assinatura",
+      "form": "Formulários de Assinatura"
+    },
+    "donations": {
+      "text": "Doações",
+      "form": "Formulários de Doação"
+    },
+    "show_more": "Mostrar mais",
+    "links_reports": "Relatórios de links",
+    "page_url": "URL da página",
+    "actions": "Ações",
+    "triggerActive": "Ativo",
+    "to_target": "Ir para o target",
+    "edit": "Editar",
+    "show_log": "Ver registro",
+    "created": "Criada",
+    "bounce": "Devolver",
+    "max_profile_photo_size": "Peso máximo de 1 MB",
+    "change_profile_photo": "Mudança",
+    "contact_data": "Informação de contato",
+    "account_info": "Dados da conta",
+    "petitor_start_date": "Data de início",
+    "petitor_projects_count": "Pedidos criados",
+    "accept_terms": "Aceito os termos e condições",
+    "settings": {
+      "text": "Configuração",
+      "toolbar": "Configurações da conta de email",
+      "button": "Configuração",
+      "subtitle": "Aqui você pode configurar contas de email para:",
+      "notifications": {
+        "text": "Configurar notificações de contas de email",
+        "opt1": "Email de confirmação de petitions",
+        "opt2": "Email de confirmação de petition",
+        "opt3": "Solicitar email de confirmação de assinatura"
+      },
+      "target": {
+        "text": "Configurar contas de email para os targets",
+        "opt1": "Enviar para o target"
+      }
+    },
+    "target": {
+      "delete": {
+        "title": "Excluir target",
+        "description": "Esta ação não pode ser revertida"
+      },
+      "headers": {
+        "name": "Nome",
+        "charge": "Charge",
+        "organization": "Organização",
+        "emails": "Emails",
+        "phones": "Telefones"
+      }
+    },
+    "modal_info": {
+      "title": "Contas de email não foram configuradas",
+      "subtitle": "Se você não configurar as contas, os emails não serão enviados",
+      "record": "Lembrar-me depois",
+      "config": "Configurar"
+    },
+    "tabs": {
+      "dashboard": "Dashboard",
+      "petitor_data": "Dados do peticionário",
+      "petition_details": "Detalhes do pedido",
+      "target": "Target",
+      "interactions": "Interações"
+    },
+    "projects": {
+      "details": "Detalhes do projeto",
+      "edit": "Editar projeto",
+      "text": "Petições",
+      "singular": "Projeto",
+      "total": "Total de projetos",
+      "statusOptions": {
+        "pending": "Pendente",
+        "active": "Aprovado",
+        "inactive": "Rejeitado",
+        "finalized": "Concluído"
+      },
+      "statusOptionsPlural": {
+        "pending": "Petições pendentes",
+        "active": "Petições aprovadas",
+        "inactive": "Petições rechazadas",
+        "finalized": "Petições finalizadas"
+      },
+      "messages": {
+        "errors": {
+          "get_all": "Erro ao obter projetos",
+          "get_one": "Erro ao obter o projeto",
+          "create": "Erro ao criar o projeto",
+          "edit": "Erro ao editar o projeto",
+          "accept": "Erro ao aceitar o projeto",
+          "reject": "Erro ao rejeitar o projeto",
+          "image": "Falha ao excluir a imagem",
+          "image_add": "erro ao carregar a imagem"
+        },
+        "success": {
+          "create": "Projeto criado com sucesso",
+          "edit": "Projeto atualizado com sucesso",
+          "accept": "Projeto aprovado com sucesso",
+          "reject": "Projeto rejeitado com sucesso",
+          "image": "Imagem removida com sucesso",
+          "image_add": "Imagem adicionada com sucesso"
+        }
+      },
+      "fields": {
+        "amount_goal": "Objetivo",
+        "amount_raised": "Montante levantado",
+        "name": "Nome",
+        "category": "Category",
+        "description": "Descrição",
+        "people_have_signed": "pessoas assinaram",
+        "addressed_to": "Endereçado a",
+        "foundation_name": "Nome do Instituto",
+        "project_name": "Nome do projeto",
+        "signatures": "Assinaturas",
+        "total_signatures": "Total de assinaturas",
+        "total_acquired": "Total adquirido",
+        "request_date": "Data do Pedido",
+        "creator": "Criador",
+        "publishing_date": "Data de publicação"
+      },
+      "logs": {
+        "show": "Ver Log",
+        "details": "Detalhes",
+        "signature": "Solicitar assinatura",
+        "result_options": {
+          "received": "Received",
+          "reject": "Rejeitado",
+          "send": "Enviado",
+          "delivery": " Entraga"
+        }
+      }
+    },
+    "creators": {
+      "text": "Criadores",
+      "details": "Detalhes do criador",
+      "edit": "Editar criador",
+      "total": "Total de criadores",
+      "messages": {
+        "errors": {
+          "get_all": "Erro ao obter Criadores",
+          "get_one": "Erro ao obter o criador",
+          "update_creator": "Falha ao atualizar o criador"
+        },
+        "success": {
+          "update_creator": "Criador atualizado com sucesso"
+        }
+      },
+      "fields": {
+        "number_projects": "N° de projetos"
+      }
+    },
+    "petitions": {
+      "create": {
+        "title": "Criar pedido",
+        "content": "Content",
+        "visual": "Visuais",
+        "upload_main_image": "Carregar imagem principal",
+        "upload_optional_image": "Carregar imagem (Opcional)",
+        "change_image": "Alterar imagem",
+        "upload_one_image": "Você deve enviar pelo menos uma imagem",
+        "video": "Link do Vídeo"
+      },
+      "approve": {
+        "title": "Pedido aprovado!",
+        "text": "O usuário será notificado de que sua solicitação foi aprovada",
+        "success": "Pedido aprovado com sucesso.",
+        "error": "Ocorreu um erro ao aprovar a solicitação."
+      },
+      "remove": {
+        "success": "Pedido rejeitado com sucesso.",
+        "error": "Ocorreu um erro ao rejeitar a solicitação."
+      }
+    },
+    "landing": {
+      "text": "Landing"
+    },
+    "api": {
+      "key": "Key",
+      "value": "Value",
+      "body": "Body",
+      "params": "Params",
+      "description": "Description",
+      "response": "Response",
+      "method": "Method",
+      "url": "URL",
+      "url_details": "URL details"
+    }
+  },
+  "validations": {
+    "email_required": "E-mail necessário",
+    "full_name_required": "Nome e sobrenome necessários",
+    "first_name_required": "O primeiro nome é obrigatório.",
+    "amount_required": "Montante necessário",
+    "invalid_email": "E-mail inválido",
+    "invalid_amount": "Montante inválido",
+    "invalid_born_date": "Data de nascimento inválida"
+  },
+  "email_marketing": {
+    "actions": {
+      "autogenerate": "gerar automaticamente",
+      "edit_template": "Editar design",
+      "import_template": "Import template",
+      "view_detail": "Ver detalhes",
+      "upload_email": "Upload e-mail",
+      "write_email": "Escrever e-mail",
+      "preview": "Preview",
+      "send_test": "Enviar teste",
+      "send_email": "Enviar email",
+      "filter": "Filtrar por"
+    },
+    "emails": {
+      "create": {
+        "title": "New email",
+        "basic": "Básico",
+        "advanced": "Avançado",
+        "success_message": "Correio enviado!"
+      },
+      "edit": {
+        "title": "Editar email"
+      },
+      "detail": {
+        "title": "Detalhe do email"
+      },
+      "remove": {
+        "title": "Excluir e-mail",
+        "text": "Tem certeza de que deseja excluir o e-mail?"
+      },
+      "metadata": {
+        "title": "Metadata do email"
+      },
+      "fields": {
+        "metric": "Métricas",
+        "name": "Name",
+        "template_name": "Nome do modelo",
+        "template_id": "ID do modelo",
+        "trigger_id": "ID do gatilho de correio",
+        "email": "Correio",
+        "data": "Data",
+        "donor": "doador",
+        "internal_name": "Nome interno do email",
+        "reply": "Reply",
+        "cc": "CC",
+        "bcc": "CCO",
+        "subject": "Subject",
+        "event": "Evento",
+        "all_campaigns": "Para todas as campanhas",
+        "campaign": "Campaign",
+        "form": "Formulário",
+        "project_name": "Nome do projeto",
+        "language": "Language",
+        "published": "Correio publicado",
+        "campaign_source": "Origem da campanha",
+        "campaign_medium": "Suporte da campanha",
+        "campaign_name": "Nome da campanha",
+        "campaign_content": "Conteúdo da campanha",
+        "from_name": "Do nome",
+        "reply_to_address": "Responder ao endereço",
+        "bcc_address": "Endereço CCO",
+        "plain_text_version": "Versão em texto simples",
+        "results": "Results",
+        "emails_sent": "Emails enviados",
+        "recipient": "Destinatário",
+        "project": "Projeto"
+      },
+      "result_options_all": {
+        "issued": "Emitido",
+        "sent": "Enviei",
+        "delivery": "Delivered",
+        "click": "Cliques",
+        "read": "Ler",
+        "open": "Aberto",
+        "hard_bounces": "Hard Bounces",
+        "soft_bounces": "Soft Bounces",
+        "opt_out": "Escolha não participar",
+        "complaint": "Reclamações",
+        "reject": "rejeitado",
+        "rendering_failure": "Erros de renderização"
+      },
+      "status_options": {
+        "send": "Enviado",
+        "delivery": "Delivered",
+        "open": "Aberto",
+        "click": "Click",
+        "bounce": "Devolver",
+        "complaint": "Reclamação",
+        "reject": "Rejeitado",
+        "rendering_failure": "Erro de renderização"
+      },
+      "result_options": {
+        "sent": "Enviado",
+        "received": "Received",
+        "read": "Read"
+      },
+      "messages": {
+        "error": {
+          "get_all": "Erro ao obter e-mails",
+          "get_one": "Erro ao obter e-mail",
+          "save": "Erro ao criar e-mail",
+          "update": "Erro ao atualizar e-mail",
+          "remove": "Erro ao excluir e-mail",
+          "trigger_required": "Selecione um acionador de evento (campanha, formulário)",
+          "empty_template": "Selecione um modelo",
+          "send_test_email": "Erro ao enviar email de teste",
+          "can_not_mix_all_campaigns_with_campaign_id_or_form_id": "Você não pode configurar um e-mail para uma campanha ou formulário<br>se já estiver configurado para todas as campanhas",
+          "event_for_all_campaigns_exists": "Já existe um e-mail configurado com os mesmos parâmetros:<br>(Todas as campanhas, Evento, Idioma)",
+          "event_for_campaign_exists": "Já existe um e-mail configurado com os mesmos parâmetros:<br>(Campaign, Event, Language)",
+          "event_for_form_exists": "Já existe um e-mail configurado com os mesmos parâmetros:<br>(Form, Event, Language)",
+          "event_for_project_exists": "Já existe um e-mail configurado com os mesmos parâmetros:<br>(Projeto, Evento, Idioma)"
+        },
+        "success": {
+          "save": "E-mail criado com sucesso",
+          "update": "E-mail atualizado com sucesso",
+          "remove": "E-mail removido com sucesso",
+          "send_test_email": "E-mail de teste enviado com sucesso"
+        }
+      }
+    },
+    "accounts": {
+      "messages": {
+        "error": {
+          "get_all": "Falha ao obter contas",
+          "get_one": "Falha ao obter o conta",
+          "save": "Erro ao criar conta",
+          "update": "Falha ao atualizar o conta",
+          "remove": "Erro ao excluir o conta"
+        },
+        "success": {
+          "save": "Conta criado com sucesso",
+          "update": "Conta atualizado com sucesso",
+          "remove": "Conta removido com sucesso"
+        }
+      }
+    }
+  },
+  "landing": {
+    "actions": {
+      "autogenerate": "gerar automaticamente",
+      "edit_template": "Editar design",
+      "import_template": "Import template",
+      "view_detail": "Ver detalhes",
+      "upload_landing": "Upload página",
+      "write_landing": "Escrever página",
+      "preview": "Preview",
+      "send_test": "Enviar teste",
+      "send_landing": "Enviar página",
+      "filter": "Filtrar por"
+    },
+    "domains": {
+      "create": {
+        "title": "Adicionar domínio",
+        "title_create": "Adicionar um novo domínio personalizado",
+        "title_update": "Atualizar domínio personalizado",
+        "text_title": "Qual é o domínio que você gostaria de usar com Afrus.app?",
+        "text_helper_title": "AVISO PRÉVIO",
+        "text_helper": "Os domínios não são fornecidos por Afrus.app e devem ser adquiridos e configurados com um provedor como GoDaddy, Media Temple, etc. ou através da hospedagem na web de sua própria empresa.",
+        "text_helper_2": "Lembramos que seu domínio deve ter um certificado SSL ativo.",
+        "text_helper_3": "O domínio que você deseja adicionar deve ser configurado para apontar para este IP:",
+        "text_helper_4": "Você deve aguardar a confirmação da equipe Afrus para continuar e usar o domínio.",
+        "button": "Criar domínio",
+        "confirm_button": "Confirme"
+      },
+      "remove": {
+        "title": "Excluir domínio",
+        "text": "Tem certeza de que deseja excluir a domínio?"
+      },
+      "table": {
+        "status": "Status",
+        "domain": "Domínio",
+        "date": "Data",
+        "page_number": "Páginas"
+      },
+      "messages": {
+        "error": {
+          "get_all": "Erro ao obter domínios",
+          "get_one": "Erro ao obter domínio",
+          "save": "Erro ao criar domínio",
+          "update": "Erro ao atualizar domínio",
+          "remove": "Erro ao excluir domínio"
+        },
+        "success": {
+          "save": "Domínio criado",
+          "update": "Domínio atualizado",
+          "remove": "Domínio removido"
+        }
+      }
+    },
+    "landings": {
+      "cards": {
+        "visits": "Visitas",
+        "lead_conversions": "Conversões",
+        "donation_conversions": "Donaciones"
+      },
+      "create": {
+        "title": "Nova página",
+        "basic": "Básico",
+        "advanced": "Avançado",
+        "success_message": "Página enviado!"
+      },
+      "edit": {
+        "title": "Editar página"
+      },
+      "detail": {
+        "title": "Detalhe da página",
+        "current_url": "Url Atual",
+        "current_url_text_helper": "Assim que o SSL estiver habilitado neste domínio, você pode usar o URL seguro SSL para esta página substituindo “http” por “https”. Saiba mais sobre URL protegido por SSL.",
+        "change_url_text": "Escolha um novo URL para sua página:",
+        "buttons": {
+          "preview": "Pré-visualização",
+          "publish": "Publicar"
+        }
+      },
+      "remove": {
+        "title": "Excluir página",
+        "text": "Tem certeza de que deseja excluir a página?"
+      },
+      "metadata": {
+        "title": "Metadata da página"
+      },
+      "table": {
+        "type": {
+          "standard": "Padrão",
+          "a_b_testing": "A/B testing"
+        },
+        "change_url": "Mudar Url"
+      },
+      "fields": {
+        "type": "Tipo",
+        "metric": "Métricas",
+        "name": "Nome",
+        "template_name": "Nome do modelo",
+        "email": "Mail",
+        "date": "Data",
+        "donor": "Doador",
+        "internal_name": "Nome interno da página",
+        "event": "Evento",
+        "language": "Idioma",
+        "published": "Página publicada",
+        "results": "Resultados",
+        "domain": "Domínio",
+        "path": "Caminho",
+        "index": "Página principal"
+      },
+      "result_options_all": {
+        "sent": "Enviado",
+        "click": "Cliques",
+        "read": "Read",
+        "hard_bounces": "Hard Bounces",
+        "soft_bounces": "Soft Bounces",
+        "opt_out": "Optar por não participar"
+      },
+      "status_options": {
+        "send": "Enviado",
+        "delivery": "Delivered",
+        "open": "Aberto",
+        "click": "Click",
+        "bounce": "Devolver",
+        "complaint": "Reclamação",
+        "reject": "Rejeitado",
+        "rendering_failure": "Erro de renderização"
+      },
+      "result_options": {
+        "sent": "Enviado",
+        "received": "Received",
+        "read": "Read"
+      },
+      "messages": {
+        "error": {
+          "get_all": "Erro ao obter páginas",
+          "get_one": "Erro ao obter página",
+          "save": "Erro ao criar página",
+          "update": "Erro ao atualizar página",
+          "remove": "Erro ao excluir página",
+          "empty_template": "Selecione um modelo",
+          "send_test_landing": "Erro ao enviar página de teste",
+          "path_alredy_exist": "A ruta já está em uso",
+          "no_domain": "Página sem domínio configurado.<br>Por favor configure"
+        },
+        "success": {
+          "save": "Página criada",
+          "update": "Página atualizada",
+          "remove": "Página removida",
+          "send_test_landing": "Landing de teste enviada"
+        }
+      }
+    }
+  },
+  "templates": {
+    "my": "Meus modelos",
+    "blank_template": "Modelo em branco",
+    "preview_not_available": "Pré-visualização não disponível",
+    "text_templates_available_1": "Estes são os modelos que você tem disponível",
+    "text_templates_available_2": "escolha um abaixo para usar em seu {name} ou, se preferir, importe um da nossa galeria.",
+    "events": {
+      "donation": "Doação registrada",
+      "donation_fail": "Falha na doação",
+      "lead": "Lead registrado",
+      "lead_fail": "Lead falhou",
+      "subscription": "Assinatura registrada",
+      "subscription_fail": "Falha na assinatura",
+      "donation_certificate": "Certificado de doação",
+      "donation_certificate_annulled": "Certificado de doação anulado",
+      "petition_confirmation": "Confirmação do usuário Petições",
+      "petition_accepted": "Pedido aceito",
+      "petition_signup": "Solicitar assinatura",
+      "petition_recover_password": "Recuperar senha Petições",
+      "petition_target": "Enviar para o destino"
+    },
+    "types": {
+      "email": "E-mail",
+      "certificate": "Certificado",
+      "pdf": "PDF",
+      "landing": "Landing"
+    },
+    "create": {
+      "title": "Novo modelo",
+      "tags_guide": "Guia de tags (código)",
+      "tags_merge": "Mesclar tags",
+      "no_content": "Não há conteúdo aqui. Arraste o conteúdo da direita",
+      "content": "Content",
+      "block": "Blocos",
+      "body": "corpo"
+    },
+    "edit": {
+      "title": "Editar modelo",
+      "save_to_edit_design": "Salve o modelo para editar o design"
+    },
+    "detail": {
+      "title": "Pré-visualização modelo",
+      "empty_design": "Modelo sem design, configure",
+      "not_avaliable": "Pré-visualização não disponível"
+    },
+    "remover": {
+      "title": "Excluir modelo",
+      "question": "Tem certeza de que deseja excluir este modelo?",
+      "text": "Lembre-se de que após a exclusão não pode ser recuperada."
+    },
+    "gallery": {
+      "title": "Galeria de modelos",
+      "text_1": "<b>Criamos muitos modelos para você,</b> escolha um abaixo para usar em seu {type}."
+    },
+    "messages": {
+      "error": {
+        "get_all": "Falha ao obter modelos",
+        "get_one": "Falha ao obter o modelo",
+        "save": "Erro ao criar modelo",
+        "update": "Falha ao atualizar o modelo",
+        "remove": "Erro ao excluir o modelo",
+        "clone": "Erro ao importar modelo"
+      },
+      "success": {
+        "save": "Modelo criado",
+        "update": "Modelo atualizado",
+        "remove": "Modelo removido",
+        "clone": "Modelo importado"
+      }
+    }
+  },
+  "images": {
+    "title": "Imagens",
+    "remove": {
+      "title": "Excluir imagem",
+      "text": "Tem certeza de que deseja excluir a imagem?"
+    },
+    "gallery": {
+      "title": "Galeria de imagens",
+      "text": "<b>Incluímos muitas imagens para você,</b> escolha uma abaixo para importar."
+    },
+    "messages": {
+      "error": {
+        "copy": "Erro ao copiar",
+        "copy_url": "Erro ao copiar o URL da imagem",
+        "get_all": "Erro ao obter imagens",
+        "get_one": "Erro ao obter a imagen",
+        "save": "Erro ao salvar a imagem",
+        "update": "Erro ao atualizar a imagem",
+        "remove": "Erro ao excluir a imagem",
+        "invalid_type": "Tipo de arquivo inválido",
+        "import": "A importação da imagem falhou"
+      },
+      "success": {
+        "copy": "Copiada",
+        "copy_url": "URL da imagem copiada",
+        "save": "Imagem salva",
+        "update": "Imagem atualizada",
+        "remove": "Imagem removida",
+        "import": "Imagem importada"
+      }
+    }
+  },
+  "certifications": {
+    "created_success": "Formato do certificado criado!",
+    "updated_success": "Formato do certificado atualizado!",
+    "deleted_success": "Formato do certificado excluído!",
+    "deleted_error": "Ocorreu um erro ao excluir o formato!",
+    "updated_error": "Ocorreu um erro ao atualizar o formato!",
+    "created_error": "Ocorreu um erro ao criar o formato!",
+    "no_data": "Não há registros",
+    "btn_update": "Atualizar formato",
+    "btn_store": "Salvar formato",
+    "btn_delete": "Excluir formato",
+    "btn_reset": "Restaurar formato",
+    "btn_lang": "Alterar Idioma",
+    "btn_new": "Novo formato",
+    "btn_demo": "Demo PDF",
+    "btn_add_img": "Novo imagem",
+    "header": "cabeçalho",
+    "body": "corpo",
+    "footer": "rodapé",
+    "headerText": "Texto del encabezado",
+    "bodyText": "Texto del cuerpo",
+    "footerText": "Texto del pie de pagina",
+    "text": {
+      "primary": "texto primário",
+      "secondary": "texto secundário"
+    },
+    "select": "Seleccione datos",
+    "duplicate": "DUPLICAR",
+    "data": {
+      "donor_name": "NOME DO DOADOR",
+      "donor_address": "ENDEREÇO DO DOADOR",
+      "legal_representative": "NOME DO REPRESENTANTE LEGAL",
+      "postal_address": "ENDEREÇO POSTAL DA ONG",
+      "dni": "DNI xxxxxxxx",
+      "ngo_name": "NOME DA ONG",
+      "ngo_registration": "DADOS DE REGISTRO DA ONG",
+      "ngo_nif": "N.I.F. xxxxxxxx DA ONG",
+      "quantity": "QUANTIDADE EM FIGURAS",
+      "donor_type": "NÚMERO DE IDADE DE TIPO E IMPOSTO DO DOADOR",
+      "city_date": "CIDADE E DATA DA DOAÇÃO",
+      "signature_seal": "ASSINATURA E SELO DA ENTIDADE",
+      "legal_representative_name": "NOME DO REPRESENTANTE LEGAL DA ONG",
+      "reference_number": "NÚMERO DE REFERÊNCIA DO CERTIFICADO"
+    }
+  },
+  "certificates": {
+    "title": "Certificado de doação",
+    "config": {
+      "title": "Configurar conta de e-mail",
+      "description": "Aqui você pode configurar as contas de email para enviar certificados"
+    },
+    "fields": {
+      "id": "ID do certificado",
+      "certificate_batch": "Lote de certificado",
+      "certificate": "Certificado",
+      "certificates": "Certificados",
+      "certificates_to_issue": "Certificados a emitir",
+      "certificates_issued": "Certificados emitidos",
+      "invalid_leads": "Leads inválidos",
+      "not_issued": "Não emitido",
+      "annulled": "Anulado"
+    },
+    "create": {
+      "title": "Novo certificado"
+    },
+    "edit": {
+      "title": "Editar certificado"
+    },
+    "cancel": {
+      "title": "Cancelar certificado",
+      "description": "Tem certeza de que deseja cancelar o certificado?"
+    },
+    "resend": {
+      "title": "Reenviar certificado",
+      "description": "Tem certeza de que deseja reenviar o certificado?"
+    },
+    "manual": {
+      "config_emails": "Antes de gerar seu certificado, você deve criá-lo e atribuí-lo a um email.",
+      "go_to_emails": "Vá criar certificados",
+      "select_email": "Selecionar e-mail",
+      "select_email_certificate": "Correio de certificado",
+      "detail": "Detalhe da emissão",
+      "generate": "Gerar certificados"
+    },
+    "annual": {
+      "title": "Certificado anual",
+      "certificate_year": "Ano do certificado",
+      "format_182": "Certificado anual (formato 182)",
+      "empty": "No hay certificados anuais.",
+      "settings": {
+        "text": "Configurações anuais do certificado",
+        "nature": {
+          "text": "Natureza do declarante",
+          "1": "Entidade beneficiária dos incentivos regulamentados no título III da Lei 49/2002, de 23 de dezembro, sobre o regime tributário de entidades sem fins lucrativos e incentivos fiscais para o patrocínio.",
+          "2": "Fundação legalmente reconhecida que se reporta ao órgão de proteção correspondente ou associação declarada de utilidade pública, não incluída no aparato anterior.",
+          "3": "Titular ou administrador de um patrimônio protegido."
+        },
+        "description": "IMPORTANTE!: Para gerar seu certificado anual, você deve preencher suas informações abaixo.",
+        "protected_heritage": "Patrimônio protegido",
+        "error": "Ocorreu um erro ao atualizar a configuração."
+      },
+      "generate": {
+        "text": "Gerar arquivo",
+        "year_already_generated": "Este ano já foi gerado!",
+        "error": "Ocorreu um erro ao gerar o certificado anual",
+        "success": "O certificado anual está pronto para ser baixado"
+      },
+      "error_get": "Ocorreu um erro ao obter os certificados anuais"
+    },
+    "messages": {
+      "error": {
+        "get_all": "Erro ao obter todos os certificados",
+        "get_one": "Erro ao obter o certificado",
+        "get_preview": "Erro ao obter a visualização do certificado",
+        "get_donations": "Erro ao obter doações de certificados",
+        "download": "Erro ao baixar o certificado",
+        "get_batches": "Erro ao obter lotes de certificados",
+        "get_batch": "Erro ao obter o lote de certificados",
+        "save_batch": "Erro ao salvar o lote do certificado",
+        "send_certificate": "Erro ao enviar certificado",
+        "resend_certificate": "Erro ao reenviar certificado",
+        "tryagain_certificate": "Erro ao tentar novamente o envio do certificado",
+        "cancel_certificate": "Erro ao cancelar certificado",
+        "cancel_batch": "Erro ao cancelar lote de certificados"
+      },
+      "success": {
+        "save_batch": "Lote salvo",
+        "send_certificate": "Certificado enviado",
+        "resend_certificate": "Certificado reenviado",
+        "tryagain_certificate": "Certificado enviado",
+        "cancel_certificate": "Certificado cancelado",
+        "cancel_batch": "Lote de certificado cancelado"
+      }
+    }
+  },
+  "view": {
+    "grid": "Visualização em grade",
+    "list": "Vista de lista"
+  },
+  "secure_data_storage": {
+    "history_exported": "Histórico de arquivos exportados",
+    "title": "SDS · Armazenamento seguro de dados",
+    "generate": "Gerar arquivos",
+    "table": {
+      "name": "Nome",
+      "date": "Data",
+      "filter": "Filtro",
+      "download": "Baixar"
+    },
+    "messages": {
+      "success": "Arquivo gerado com sucesso",
+      "error": "Ocorreu um erro ao gerar o arquivo",
+      "error_types": "Ocorreu um erro ao obter os tipos",
+      "error_files": "Ocorreu um erro ao obter os arquivos"
+    },
+    "type": "Tipo",
+    "name": "Name",
+    "lead_register_client": "Data do registro · Cliente",
+    "export": "Exportar",
+    "wish_old_exported": "Deseja exportar registros exportados anteriormente?",
+    "types": {
+      "card": "Cartão de Crédito",
+      "account": "Conta bancária",
+      "all": "Todos"
+    }
+  }
+}
