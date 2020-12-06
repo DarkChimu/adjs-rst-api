@@ -22,8 +22,6 @@ Route.group(()=>{
 	})
 	Route.post('/users/register', 'UserController.store')
 	Route.post('/users/login', 'UserController.login')
-	Route.get('/users/data', 'UserController.show')
-	Route.get('/admin/logs', 'AdminLogController.show')
-
-	Route.get('/admin/translation/:id', 'AdminTranslationController.index')
+	Route.get('/projects', 'ProjectController.index').middleware('auth')
+	Route.post('/projects', 'ProjectController.create').middleware('auth')
 }).prefix('/api/v1')
